@@ -1,0 +1,3757 @@
+{
+ "version": 1,
+ "categorias": [
+  {
+   "id": "videojuegos",
+   "nombre": "Videojuegos",
+   "emoji": "🎮"
+  },
+  {
+   "id": "youtube",
+   "nombre": "YouTube y creadores",
+   "emoji": "📺"
+  },
+  {
+   "id": "tiktok",
+   "nombre": "TikTok y redes sociales",
+   "emoji": "📱"
+  },
+  {
+   "id": "anime",
+   "nombre": "Anime y manga",
+   "emoji": "🍥"
+  },
+  {
+   "id": "musica",
+   "nombre": "Música y artistas populares",
+   "emoji": "🎵"
+  },
+  {
+   "id": "peliculas",
+   "nombre": "Películas y series",
+   "emoji": "🎬"
+  },
+  {
+   "id": "futbol",
+   "nombre": "Deportes y fútbol",
+   "emoji": "⚽"
+  },
+  {
+   "id": "deportes",
+   "nombre": "Otros deportes",
+   "emoji": "🏀"
+  },
+  {
+   "id": "minecraft",
+   "nombre": "Minecraft",
+   "emoji": "🧱"
+  },
+  {
+   "id": "roblox",
+   "nombre": "Roblox",
+   "emoji": "🧩"
+  },
+  {
+   "id": "tecnologia",
+   "nombre": "Tecnología e inteligencia artificial",
+   "emoji": "🤖"
+  },
+  {
+   "id": "mascotas",
+   "nombre": "Animales y mascotas",
+   "emoji": "🐶"
+  },
+  {
+   "id": "escuela",
+   "nombre": "Escuela y compañeros",
+   "emoji": "🏫"
+  },
+  {
+   "id": "amistad",
+   "nombre": "Amistad",
+   "emoji": "🤝"
+  },
+  {
+   "id": "familia",
+   "nombre": "Familia",
+   "emoji": "🏠"
+  },
+  {
+   "id": "comida",
+   "nombre": "Comida",
+   "emoji": "🌮"
+  },
+  {
+   "id": "dulces",
+   "nombre": "Dulces y postres",
+   "emoji": "🍬"
+  },
+  {
+   "id": "moda",
+   "nombre": "Moda y estilo",
+   "emoji": "👟"
+  },
+  {
+   "id": "superheroes",
+   "nombre": "Superhéroes",
+   "emoji": "🦸"
+  },
+  {
+   "id": "juegos_mesa",
+   "nombre": "Juegos de mesa",
+   "emoji": "🎲"
+  },
+  {
+   "id": "ciencia",
+   "nombre": "Ciencia y experimentos",
+   "emoji": "🔬"
+  },
+  {
+   "id": "espacio",
+   "nombre": "Espacio y planetas",
+   "emoji": "🪐"
+  },
+  {
+   "id": "viajes",
+   "nombre": "Aventuras y viajes",
+   "emoji": "🧳"
+  },
+  {
+   "id": "misterios",
+   "nombre": "Misterios y acertijos",
+   "emoji": "🕵️"
+  },
+  {
+   "id": "memes",
+   "nombre": "Memes y humor",
+   "emoji": "😂"
+  },
+  {
+   "id": "apps",
+   "nombre": "Aplicaciones móviles",
+   "emoji": "📲"
+  },
+  {
+   "id": "dinosaurios",
+   "nombre": "Dinosaurios",
+   "emoji": "🦖"
+  },
+  {
+   "id": "naturaleza",
+   "nombre": "Naturaleza y medioambiente",
+   "emoji": "🌳"
+  },
+  {
+   "id": "emociones",
+   "nombre": "Emociones y sentimientos",
+   "emoji": "💛"
+  },
+  {
+   "id": "habitos",
+   "nombre": "Hábitos cotidianos",
+   "emoji": "⏰"
+  },
+  {
+   "id": "profesiones",
+   "nombre": "Sueños y profesiones",
+   "emoji": "👩‍🚀"
+  },
+  {
+   "id": "fantasia",
+   "nombre": "Fantasía y magia",
+   "emoji": "🧙"
+  },
+  {
+   "id": "celebridades",
+   "nombre": "Celebridades y personajes famosos",
+   "emoji": "🌟"
+  },
+  {
+   "id": "mexico",
+   "nombre": "Cultura y tradiciones mexicanas",
+   "emoji": "🇲🇽"
+  },
+  {
+   "id": "caricaturas",
+   "nombre": "Caricaturas y animación",
+   "emoji": "🎨"
+  },
+  {
+   "id": "libros",
+   "nombre": "Libros y lectura",
+   "emoji": "📚"
+  },
+  {
+   "id": "arte",
+   "nombre": "Arte y dibujo",
+   "emoji": "🖍️"
+  },
+  {
+   "id": "baile",
+   "nombre": "Bailes y coreografías",
+   "emoji": "💃"
+  },
+  {
+   "id": "foto_video",
+   "nombre": "Fotografía y video",
+   "emoji": "📷"
+  },
+  {
+   "id": "vacaciones",
+   "nombre": "Vacaciones y verano",
+   "emoji": "🏖️"
+  },
+  {
+   "id": "clima",
+   "nombre": "Clima y estaciones",
+   "emoji": "☔"
+  },
+  {
+   "id": "vehiculos",
+   "nombre": "Transporte y vehículos",
+   "emoji": "🚗"
+  },
+  {
+   "id": "lego",
+   "nombre": "LEGO y construcción",
+   "emoji": "🏗️"
+  },
+  {
+   "id": "mar",
+   "nombre": "Mundo marino",
+   "emoji": "🐙"
+  },
+  {
+   "id": "insectos",
+   "nombre": "Insectos y bichos",
+   "emoji": "🐞"
+  },
+  {
+   "id": "cumpleanos",
+   "nombre": "Cumpleaños y regalos",
+   "emoji": "🎁"
+  },
+  {
+   "id": "ciudad_campo",
+   "nombre": "Ciudad o campo",
+   "emoji": "🏙️"
+  },
+  {
+   "id": "skate",
+   "nombre": "Deportes extremos y patineta",
+   "emoji": "🛹"
+  },
+  {
+   "id": "halloween",
+   "nombre": "Halloween y Día de Muertos",
+   "emoji": "🎃"
+  },
+  {
+   "id": "salud",
+   "nombre": "Salud y bienestar",
+   "emoji": "😴"
+  }
+ ],
+ "preguntas": [
+  {
+   "id": "videojuegos-01",
+   "categoria": "videojuegos",
+   "pregunta": "¿Qué videojuego prefieres?",
+   "opcion_a": "Minecraft",
+   "opcion_b": "Roblox"
+  },
+  {
+   "id": "videojuegos-02",
+   "categoria": "videojuegos",
+   "pregunta": "¿Dónde juegas más a gusto?",
+   "opcion_a": "En consola",
+   "opcion_b": "En celular"
+  },
+  {
+   "id": "videojuegos-03",
+   "categoria": "videojuegos",
+   "pregunta": "¿Qué prefieres en un videojuego?",
+   "opcion_a": "Jugar solo",
+   "opcion_b": "Jugar con amigos"
+  },
+  {
+   "id": "videojuegos-04",
+   "categoria": "videojuegos",
+   "pregunta": "¿Qué tipo de juego te gusta más?",
+   "opcion_a": "Aventura",
+   "opcion_b": "Carreras"
+  },
+  {
+   "id": "videojuegos-05",
+   "categoria": "videojuegos",
+   "pregunta": "¿Qué prefieres al jugar?",
+   "opcion_a": "Ganar siempre",
+   "opcion_b": "Divertirme aunque pierda"
+  },
+  {
+   "id": "videojuegos-06",
+   "categoria": "videojuegos",
+   "pregunta": "¿Qué mundo prefieres?",
+   "opcion_a": "Mundo abierto",
+   "opcion_b": "Niveles con misiones"
+  },
+  {
+   "id": "videojuegos-07",
+   "categoria": "videojuegos",
+   "pregunta": "¿Qué te gusta más de un videojuego?",
+   "opcion_a": "Los gráficos",
+   "opcion_b": "La historia"
+  },
+  {
+   "id": "videojuegos-08",
+   "categoria": "videojuegos",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Un juego difícil",
+   "opcion_b": "Un juego relajado"
+  },
+  {
+   "id": "videojuegos-09",
+   "categoria": "videojuegos",
+   "pregunta": "¿Qué harías primero con un videojuego nuevo?",
+   "opcion_a": "Leer las instrucciones",
+   "opcion_b": "Empezar a jugar ya"
+  },
+  {
+   "id": "videojuegos-10",
+   "categoria": "videojuegos",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Juegos de pelea",
+   "opcion_b": "Juegos de construir"
+  },
+  {
+   "id": "youtube-01",
+   "categoria": "youtube",
+   "pregunta": "¿Qué tipo de contenido prefieres ver?",
+   "opcion_a": "Videos de humor",
+   "opcion_b": "Videos de videojuegos"
+  },
+  {
+   "id": "youtube-02",
+   "categoria": "youtube",
+   "pregunta": "¿Qué te gusta más en YouTube?",
+   "opcion_a": "Videos largos",
+   "opcion_b": "Videos cortos"
+  },
+  {
+   "id": "youtube-03",
+   "categoria": "youtube",
+   "pregunta": "¿Qué prefieres ver?",
+   "opcion_a": "Retos divertidos",
+   "opcion_b": "Tutoriales para aprender"
+  },
+  {
+   "id": "youtube-04",
+   "categoria": "youtube",
+   "pregunta": "¿Qué canal te atrae más?",
+   "opcion_a": "Uno de ciencia",
+   "opcion_b": "Uno de bromas sanas"
+  },
+  {
+   "id": "youtube-05",
+   "categoria": "youtube",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Ver en directo",
+   "opcion_b": "Ver videos grabados"
+  },
+  {
+   "id": "youtube-06",
+   "categoria": "youtube",
+   "pregunta": "Si tuvieras un canal, ¿de qué sería?",
+   "opcion_a": "Videojuegos",
+   "opcion_b": "Experimentos"
+  },
+  {
+   "id": "youtube-07",
+   "categoria": "youtube",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Ser creador de contenido",
+   "opcion_b": "Ser su fan"
+  },
+  {
+   "id": "youtube-08",
+   "categoria": "youtube",
+   "pregunta": "¿Qué te gusta más ver?",
+   "opcion_a": "Reseñas de juguetes",
+   "opcion_b": "Videos de cocina"
+  },
+  {
+   "id": "youtube-09",
+   "categoria": "youtube",
+   "pregunta": "¿Cómo prefieres aprender algo nuevo?",
+   "opcion_a": "Viendo un video",
+   "opcion_b": "Leyendo un libro"
+  },
+  {
+   "id": "youtube-10",
+   "categoria": "youtube",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Videos con subtítulos",
+   "opcion_b": "Videos con doblaje"
+  },
+  {
+   "id": "tiktok-01",
+   "categoria": "tiktok",
+   "pregunta": "¿Qué prefieres hacer en redes?",
+   "opcion_a": "Ver videos",
+   "opcion_b": "Crear videos"
+  },
+  {
+   "id": "tiktok-02",
+   "categoria": "tiktok",
+   "pregunta": "¿Qué video te gusta más?",
+   "opcion_a": "Bailes",
+   "opcion_b": "Trucos de magia"
+  },
+  {
+   "id": "tiktok-03",
+   "categoria": "tiktok",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Mensajes de texto",
+   "opcion_b": "Notas de voz"
+  },
+  {
+   "id": "tiktok-04",
+   "categoria": "tiktok",
+   "pregunta": "¿Qué te gusta más compartir?",
+   "opcion_a": "Fotos",
+   "opcion_b": "Videos"
+  },
+  {
+   "id": "tiktok-05",
+   "categoria": "tiktok",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Una red con muchos videos cortos",
+   "opcion_b": "Una red para platicar con amigos"
+  },
+  {
+   "id": "tiktok-06",
+   "categoria": "tiktok",
+   "pregunta": "¿Qué tendencia te gusta más?",
+   "opcion_a": "Retos de baile",
+   "opcion_b": "Videos de recetas fáciles"
+  },
+  {
+   "id": "tiktok-07",
+   "categoria": "tiktok",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Pasar el rato en redes",
+   "opcion_b": "Jugar al aire libre"
+  },
+  {
+   "id": "tiktok-08",
+   "categoria": "tiktok",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Tener muchos seguidores",
+   "opcion_b": "Tener pocos amigos muy cercanos"
+  },
+  {
+   "id": "tiktok-09",
+   "categoria": "tiktok",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Usar filtros divertidos",
+   "opcion_b": "Mostrar tu cara tal cual"
+  },
+  {
+   "id": "tiktok-10",
+   "categoria": "tiktok",
+   "pregunta": "¿Qué te gusta más?",
+   "opcion_a": "Videos de animales",
+   "opcion_b": "Videos de comida"
+  },
+  {
+   "id": "anime-01",
+   "categoria": "anime",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Ver anime",
+   "opcion_b": "Leer manga"
+  },
+  {
+   "id": "anime-02",
+   "categoria": "anime",
+   "pregunta": "¿Qué tipo de anime te gusta más?",
+   "opcion_a": "De acción",
+   "opcion_b": "De comedia"
+  },
+  {
+   "id": "anime-03",
+   "categoria": "anime",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Un héroe valiente",
+   "opcion_b": "Un personaje chistoso"
+  },
+  {
+   "id": "anime-04",
+   "categoria": "anime",
+   "pregunta": "¿Qué te gusta más de un anime?",
+   "opcion_a": "Las peleas",
+   "opcion_b": "La amistad entre personajes"
+  },
+  {
+   "id": "anime-05",
+   "categoria": "anime",
+   "pregunta": "¿Cómo prefieres verlo?",
+   "opcion_a": "Con subtítulos",
+   "opcion_b": "Doblado al español"
+  },
+  {
+   "id": "anime-06",
+   "categoria": "anime",
+   "pregunta": "¿Qué mundo te gustaría visitar?",
+   "opcion_a": "Uno con poderes",
+   "opcion_b": "Uno con mascotas mágicas"
+  },
+  {
+   "id": "anime-07",
+   "categoria": "anime",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Un anime corto",
+   "opcion_b": "Un anime de muchas temporadas"
+  },
+  {
+   "id": "anime-08",
+   "categoria": "anime",
+   "pregunta": "¿Qué prefieres coleccionar?",
+   "opcion_a": "Figuras",
+   "opcion_b": "Tomos de manga"
+  },
+  {
+   "id": "anime-09",
+   "categoria": "anime",
+   "pregunta": "¿Qué te gusta más?",
+   "opcion_a": "Dibujar personajes de anime",
+   "opcion_b": "Verlos en la tele"
+  },
+  {
+   "id": "anime-10",
+   "categoria": "anime",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Un anime de deportes",
+   "opcion_b": "Un anime de aventuras"
+  },
+  {
+   "id": "musica-01",
+   "categoria": "musica",
+   "pregunta": "¿Qué música te gusta más?",
+   "opcion_a": "Pop",
+   "opcion_b": "Reguetón"
+  },
+  {
+   "id": "musica-02",
+   "categoria": "musica",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Escuchar música con audífonos",
+   "opcion_b": "Escucharla con bocina en familia"
+  },
+  {
+   "id": "musica-03",
+   "categoria": "musica",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Ir a un concierto",
+   "opcion_b": "Ver el concierto en casa"
+  },
+  {
+   "id": "musica-04",
+   "categoria": "musica",
+   "pregunta": "¿Qué canción prefieres?",
+   "opcion_a": "Una para bailar",
+   "opcion_b": "Una para relajarte"
+  },
+  {
+   "id": "musica-05",
+   "categoria": "musica",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Cantar",
+   "opcion_b": "Tocar un instrumento"
+  },
+  {
+   "id": "musica-06",
+   "categoria": "musica",
+   "pregunta": "¿Qué te gusta más?",
+   "opcion_a": "Música en español",
+   "opcion_b": "Música en inglés"
+  },
+  {
+   "id": "musica-07",
+   "categoria": "musica",
+   "pregunta": "¿Cuándo escuchas música?",
+   "opcion_a": "Al hacer la tarea",
+   "opcion_b": "Al jugar"
+  },
+  {
+   "id": "musica-08",
+   "categoria": "musica",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Canciones nuevas",
+   "opcion_b": "Canciones clásicas que todos conocen"
+  },
+  {
+   "id": "musica-09",
+   "categoria": "musica",
+   "pregunta": "¿Qué instrumento te gustaría aprender?",
+   "opcion_a": "Guitarra",
+   "opcion_b": "Batería"
+  },
+  {
+   "id": "musica-10",
+   "categoria": "musica",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Una playlist aleatoria",
+   "opcion_b": "Elegir cada canción"
+  },
+  {
+   "id": "peliculas-01",
+   "categoria": "peliculas",
+   "pregunta": "¿Qué prefieres ver?",
+   "opcion_a": "Películas",
+   "opcion_b": "Series"
+  },
+  {
+   "id": "peliculas-02",
+   "categoria": "peliculas",
+   "pregunta": "¿Qué género te gusta más?",
+   "opcion_a": "Comedia",
+   "opcion_b": "Aventura"
+  },
+  {
+   "id": "peliculas-03",
+   "categoria": "peliculas",
+   "pregunta": "¿Dónde prefieres verlas?",
+   "opcion_a": "En el cine",
+   "opcion_b": "En casa"
+  },
+  {
+   "id": "peliculas-04",
+   "categoria": "peliculas",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Película animada",
+   "opcion_b": "Película con actores"
+  },
+  {
+   "id": "peliculas-05",
+   "categoria": "peliculas",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Ver algo nuevo",
+   "opcion_b": "Ver tu película favorita otra vez"
+  },
+  {
+   "id": "peliculas-06",
+   "categoria": "peliculas",
+   "pregunta": "¿Qué te gusta más en el cine?",
+   "opcion_a": "Las palomitas",
+   "opcion_b": "La pantalla gigante"
+  },
+  {
+   "id": "peliculas-07",
+   "categoria": "peliculas",
+   "pregunta": "¿Qué final prefieres?",
+   "opcion_a": "Uno feliz",
+   "opcion_b": "Uno sorpresa"
+  },
+  {
+   "id": "peliculas-08",
+   "categoria": "peliculas",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Una serie de misterio",
+   "opcion_b": "Una serie de comedia"
+  },
+  {
+   "id": "peliculas-09",
+   "categoria": "peliculas",
+   "pregunta": "¿Con quién prefieres verlas?",
+   "opcion_a": "Con mi familia",
+   "opcion_b": "Con mis amigos"
+  },
+  {
+   "id": "peliculas-10",
+   "categoria": "peliculas",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Una saga de varias películas",
+   "opcion_b": "Una sola película"
+  },
+  {
+   "id": "futbol-01",
+   "categoria": "futbol",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Jugar fútbol",
+   "opcion_b": "Ver fútbol"
+  },
+  {
+   "id": "futbol-02",
+   "categoria": "futbol",
+   "pregunta": "¿Qué posición te gusta más?",
+   "opcion_a": "Delantero",
+   "opcion_b": "Portero"
+  },
+  {
+   "id": "futbol-03",
+   "categoria": "futbol",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Meter un gol",
+   "opcion_b": "Dar un pase para gol"
+  },
+  {
+   "id": "futbol-04",
+   "categoria": "futbol",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Jugar en cancha de pasto",
+   "opcion_b": "Jugar en la calle con amigos"
+  },
+  {
+   "id": "futbol-05",
+   "categoria": "futbol",
+   "pregunta": "¿Qué te gusta más?",
+   "opcion_a": "Un Mundial",
+   "opcion_b": "Un torneo de tu escuela"
+  },
+  {
+   "id": "futbol-06",
+   "categoria": "futbol",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Fútbol en equipo",
+   "opcion_b": "Un deporte individual"
+  },
+  {
+   "id": "futbol-07",
+   "categoria": "futbol",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Cobrar un penal",
+   "opcion_b": "Atajar un penal"
+  },
+  {
+   "id": "futbol-08",
+   "categoria": "futbol",
+   "pregunta": "¿Qué te gusta más?",
+   "opcion_a": "Coleccionar estampas del Mundial",
+   "opcion_b": "Jugar con un balón"
+  },
+  {
+   "id": "futbol-09",
+   "categoria": "futbol",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Fútbol 7",
+   "opcion_b": "Fútbol de salón"
+  },
+  {
+   "id": "futbol-10",
+   "categoria": "futbol",
+   "pregunta": "¿Qué prefieres de un partido?",
+   "opcion_a": "Ganar 1-0",
+   "opcion_b": "Un partidazo 4-3"
+  },
+  {
+   "id": "deportes-01",
+   "categoria": "deportes",
+   "pregunta": "¿Qué deporte prefieres?",
+   "opcion_a": "Basquetbol",
+   "opcion_b": "Voleibol"
+  },
+  {
+   "id": "deportes-02",
+   "categoria": "deportes",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Natación",
+   "opcion_b": "Atletismo"
+  },
+  {
+   "id": "deportes-03",
+   "categoria": "deportes",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Entrenar en equipo",
+   "opcion_b": "Entrenar solo"
+  },
+  {
+   "id": "deportes-04",
+   "categoria": "deportes",
+   "pregunta": "¿Qué deporte te gusta más?",
+   "opcion_a": "Béisbol",
+   "opcion_b": "Tenis"
+  },
+  {
+   "id": "deportes-05",
+   "categoria": "deportes",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Karate",
+   "opcion_b": "Gimnasia"
+  },
+  {
+   "id": "deportes-06",
+   "categoria": "deportes",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Correr rápido",
+   "opcion_b": "Aguantar mucho tiempo"
+  },
+  {
+   "id": "deportes-07",
+   "categoria": "deportes",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Deportes con pelota",
+   "opcion_b": "Deportes sin pelota"
+  },
+  {
+   "id": "deportes-08",
+   "categoria": "deportes",
+   "pregunta": "¿Qué te gusta más?",
+   "opcion_a": "Andar en bicicleta",
+   "opcion_b": "Patinar"
+  },
+  {
+   "id": "deportes-09",
+   "categoria": "deportes",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Clase de deportes en la escuela",
+   "opcion_b": "Recreo con juegos libres"
+  },
+  {
+   "id": "deportes-10",
+   "categoria": "deportes",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Competir por una medalla",
+   "opcion_b": "Jugar solo por diversión"
+  },
+  {
+   "id": "minecraft-01",
+   "categoria": "minecraft",
+   "pregunta": "¿Qué modo de Minecraft prefieres?",
+   "opcion_a": "Supervivencia",
+   "opcion_b": "Creativo"
+  },
+  {
+   "id": "minecraft-02",
+   "categoria": "minecraft",
+   "pregunta": "¿Qué prefieres construir?",
+   "opcion_a": "Una casa en un árbol",
+   "opcion_b": "Un castillo gigante"
+  },
+  {
+   "id": "minecraft-03",
+   "categoria": "minecraft",
+   "pregunta": "¿Qué prefieres en Minecraft?",
+   "opcion_a": "Explorar cuevas",
+   "opcion_b": "Explorar el mar"
+  },
+  {
+   "id": "minecraft-04",
+   "categoria": "minecraft",
+   "pregunta": "¿Qué mascota prefieres allí?",
+   "opcion_a": "Un lobo",
+   "opcion_b": "Un gato"
+  },
+  {
+   "id": "minecraft-05",
+   "categoria": "minecraft",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Jugar en solitario",
+   "opcion_b": "Jugar en un servidor con amigos"
+  },
+  {
+   "id": "minecraft-06",
+   "categoria": "minecraft",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Minar diamantes",
+   "opcion_b": "Cultivar una granja"
+  },
+  {
+   "id": "minecraft-07",
+   "categoria": "minecraft",
+   "pregunta": "¿Qué te da más emoción?",
+   "opcion_a": "Visitar el Nether",
+   "opcion_b": "Visitar el End"
+  },
+  {
+   "id": "minecraft-08",
+   "categoria": "minecraft",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Redstone y mecanismos",
+   "opcion_b": "Decorar con detalle"
+  },
+  {
+   "id": "minecraft-09",
+   "categoria": "minecraft",
+   "pregunta": "¿Qué herramienta prefieres?",
+   "opcion_a": "Pico de diamante",
+   "opcion_b": "Espada de diamante"
+  },
+  {
+   "id": "minecraft-10",
+   "categoria": "minecraft",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Mods y texturas nuevas",
+   "opcion_b": "Minecraft clásico"
+  },
+  {
+   "id": "roblox-01",
+   "categoria": "roblox",
+   "pregunta": "¿Qué prefieres en Roblox?",
+   "opcion_a": "Jugar experiencias de otros",
+   "opcion_b": "Crear tu propio mundo"
+  },
+  {
+   "id": "roblox-02",
+   "categoria": "roblox",
+   "pregunta": "¿Qué tipo de juego prefieres allí?",
+   "opcion_a": "Obbies",
+   "opcion_b": "Juegos de rol"
+  },
+  {
+   "id": "roblox-03",
+   "categoria": "roblox",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Jugar con amigos",
+   "opcion_b": "Descubrir juegos nuevos"
+  },
+  {
+   "id": "roblox-04",
+   "categoria": "roblox",
+   "pregunta": "¿Qué te gusta más personalizar?",
+   "opcion_a": "Tu avatar",
+   "opcion_b": "Tu casa"
+  },
+  {
+   "id": "roblox-05",
+   "categoria": "roblox",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Juegos de terror ligero",
+   "opcion_b": "Juegos de mascotas"
+  },
+  {
+   "id": "roblox-06",
+   "categoria": "roblox",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Juegos de aventura",
+   "opcion_b": "Juegos de tycoon"
+  },
+  {
+   "id": "roblox-07",
+   "categoria": "roblox",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Chatear con amigos conocidos",
+   "opcion_b": "Solo jugar sin chatear"
+  },
+  {
+   "id": "roblox-08",
+   "categoria": "roblox",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Subir de nivel rápido",
+   "opcion_b": "Explorar con calma"
+  },
+  {
+   "id": "roblox-09",
+   "categoria": "roblox",
+   "pregunta": "¿Qué te gustaría hacer?",
+   "opcion_a": "Programar tu propio juego",
+   "opcion_b": "Diseñar la ropa del avatar"
+  },
+  {
+   "id": "roblox-10",
+   "categoria": "roblox",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Jugar en celular",
+   "opcion_b": "Jugar en computadora"
+  },
+  {
+   "id": "tecnologia-01",
+   "categoria": "tecnologia",
+   "pregunta": "¿Qué te gustaría que hiciera un robot por ti?",
+   "opcion_a": "Ayudarte con la tarea",
+   "opcion_b": "Limpiar tu cuarto"
+  },
+  {
+   "id": "tecnologia-02",
+   "categoria": "tecnologia",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Un asistente de voz",
+   "opcion_b": "Un asistente en pantalla"
+  },
+  {
+   "id": "tecnologia-03",
+   "categoria": "tecnologia",
+   "pregunta": "¿Qué invento prefieres?",
+   "opcion_a": "Un coche volador",
+   "opcion_b": "Una mochila que se organiza sola"
+  },
+  {
+   "id": "tecnologia-04",
+   "categoria": "tecnologia",
+   "pregunta": "¿Qué prefieres usar?",
+   "opcion_a": "Tableta",
+   "opcion_b": "Computadora"
+  },
+  {
+   "id": "tecnologia-05",
+   "categoria": "tecnologia",
+   "pregunta": "¿Qué te gustaría aprender?",
+   "opcion_a": "A programar",
+   "opcion_b": "A armar robots"
+  },
+  {
+   "id": "tecnologia-06",
+   "categoria": "tecnologia",
+   "pregunta": "¿Para qué usarías la inteligencia artificial?",
+   "opcion_a": "Para aprender cosas",
+   "opcion_b": "Para crear dibujos"
+  },
+  {
+   "id": "tecnologia-07",
+   "categoria": "tecnologia",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Lentes de realidad virtual",
+   "opcion_b": "Un dron con cámara"
+  },
+  {
+   "id": "tecnologia-08",
+   "categoria": "tecnologia",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Un celular nuevo",
+   "opcion_b": "Una consola nueva"
+  },
+  {
+   "id": "tecnologia-09",
+   "categoria": "tecnologia",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Una impresora 3D",
+   "opcion_b": "Un robot mascota"
+  },
+  {
+   "id": "tecnologia-10",
+   "categoria": "tecnologia",
+   "pregunta": "¿Qué tecnología del futuro te emociona más?",
+   "opcion_a": "Autos que se manejan solos",
+   "opcion_b": "Casas inteligentes"
+  },
+  {
+   "id": "mascotas-01",
+   "categoria": "mascotas",
+   "pregunta": "¿Qué animal preferirías tener como mascota?",
+   "opcion_a": "Un perro",
+   "opcion_b": "Un gato"
+  },
+  {
+   "id": "mascotas-02",
+   "categoria": "mascotas",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Un hámster",
+   "opcion_b": "Un pez"
+  },
+  {
+   "id": "mascotas-03",
+   "categoria": "mascotas",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Un loro que habla",
+   "opcion_b": "Una tortuga tranquila"
+  },
+  {
+   "id": "mascotas-04",
+   "categoria": "mascotas",
+   "pregunta": "¿Qué prefieres hacer con tu mascota?",
+   "opcion_a": "Pasear",
+   "opcion_b": "Jugar en casa"
+  },
+  {
+   "id": "mascotas-05",
+   "categoria": "mascotas",
+   "pregunta": "¿Qué mascota prefieres?",
+   "opcion_a": "Pequeña",
+   "opcion_b": "Grande"
+  },
+  {
+   "id": "mascotas-06",
+   "categoria": "mascotas",
+   "pregunta": "¿Qué animal te parece más divertido?",
+   "opcion_a": "Un conejo",
+   "opcion_b": "Un cuyo"
+  },
+  {
+   "id": "mascotas-07",
+   "categoria": "mascotas",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Adoptar un animalito rescatado",
+   "opcion_b": "Elegir un cachorro pequeño"
+  },
+  {
+   "id": "mascotas-08",
+   "categoria": "mascotas",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Una mascota juguetona",
+   "opcion_b": "Una mascota cariñosa"
+  },
+  {
+   "id": "mascotas-09",
+   "categoria": "mascotas",
+   "pregunta": "¿Qué animal salvaje te gustaría ver de cerca?",
+   "opcion_a": "Un león",
+   "opcion_b": "Un elefante"
+  },
+  {
+   "id": "mascotas-10",
+   "categoria": "mascotas",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Ir al zoológico",
+   "opcion_b": "Ir a un acuario"
+  },
+  {
+   "id": "escuela-01",
+   "categoria": "escuela",
+   "pregunta": "¿Qué materia prefieres?",
+   "opcion_a": "Matemáticas",
+   "opcion_b": "Español"
+  },
+  {
+   "id": "escuela-02",
+   "categoria": "escuela",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Educación física",
+   "opcion_b": "Artes"
+  },
+  {
+   "id": "escuela-03",
+   "categoria": "escuela",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Trabajar en equipo",
+   "opcion_b": "Trabajar solo"
+  },
+  {
+   "id": "escuela-04",
+   "categoria": "escuela",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Un examen oral",
+   "opcion_b": "Un examen escrito"
+  },
+  {
+   "id": "escuela-05",
+   "categoria": "escuela",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Hacer un experimento",
+   "opcion_b": "Hacer una exposición"
+  },
+  {
+   "id": "escuela-06",
+   "categoria": "escuela",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Más recreo",
+   "opcion_b": "Más clases de computación"
+  },
+  {
+   "id": "escuela-07",
+   "categoria": "escuela",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Excursión escolar",
+   "opcion_b": "Festival de la escuela"
+  },
+  {
+   "id": "escuela-08",
+   "categoria": "escuela",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Tarea en la mañana",
+   "opcion_b": "Tarea en la tarde"
+  },
+  {
+   "id": "escuela-09",
+   "categoria": "escuela",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Estudiar con música",
+   "opcion_b": "Estudiar en silencio"
+  },
+  {
+   "id": "escuela-10",
+   "categoria": "escuela",
+   "pregunta": "¿Qué prefieres en el salón?",
+   "opcion_a": "Sentarte al frente",
+   "opcion_b": "Sentarte junto a la ventana"
+  },
+  {
+   "id": "amistad-01",
+   "categoria": "amistad",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Muchos amigos",
+   "opcion_b": "Uno o dos mejores amigos"
+  },
+  {
+   "id": "amistad-02",
+   "categoria": "amistad",
+   "pregunta": "¿Qué prefieres con tus amigos?",
+   "opcion_a": "Jugar en línea",
+   "opcion_b": "Verse en persona"
+  },
+  {
+   "id": "amistad-03",
+   "categoria": "amistad",
+   "pregunta": "¿Qué valoras más en un amigo?",
+   "opcion_a": "Que sea divertido",
+   "opcion_b": "Que sea leal"
+  },
+  {
+   "id": "amistad-04",
+   "categoria": "amistad",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Hacer un plan sorpresa para un amigo",
+   "opcion_b": "Que te lo hagan a ti"
+  },
+  {
+   "id": "amistad-05",
+   "categoria": "amistad",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Una pijamada",
+   "opcion_b": "Una tarde de parque"
+  },
+  {
+   "id": "amistad-06",
+   "categoria": "amistad",
+   "pregunta": "Si un amigo está triste, ¿qué haces primero?",
+   "opcion_a": "Escucharlo",
+   "opcion_b": "Hacerlo reír"
+  },
+  {
+   "id": "amistad-07",
+   "categoria": "amistad",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Amigos de tu edad",
+   "opcion_b": "Amigos de distintas edades"
+  },
+  {
+   "id": "amistad-08",
+   "categoria": "amistad",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Compartir tus juguetes",
+   "opcion_b": "Compartir tus secretos"
+  },
+  {
+   "id": "amistad-09",
+   "categoria": "amistad",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Hacer nuevos amigos",
+   "opcion_b": "Cuidar a los que ya tienes"
+  },
+  {
+   "id": "amistad-10",
+   "categoria": "amistad",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Un grupo grande",
+   "opcion_b": "Un equipo pequeño"
+  },
+  {
+   "id": "familia-01",
+   "categoria": "familia",
+   "pregunta": "¿Qué prefieres hacer en familia?",
+   "opcion_a": "Ver una película",
+   "opcion_b": "Jugar juegos de mesa"
+  },
+  {
+   "id": "familia-02",
+   "categoria": "familia",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Comida con los abuelos",
+   "opcion_b": "Paseo con los primos"
+  },
+  {
+   "id": "familia-03",
+   "categoria": "familia",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Cocinar en familia",
+   "opcion_b": "Salir a comer"
+  },
+  {
+   "id": "familia-04",
+   "categoria": "familia",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Viaje en carro",
+   "opcion_b": "Viaje en avión"
+  },
+  {
+   "id": "familia-05",
+   "categoria": "familia",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Fin de semana en casa",
+   "opcion_b": "Fin de semana de paseo"
+  },
+  {
+   "id": "familia-06",
+   "categoria": "familia",
+   "pregunta": "¿Qué te gusta más?",
+   "opcion_a": "Las historias de los abuelos",
+   "opcion_b": "Los chistes de tus papás"
+  },
+  {
+   "id": "familia-07",
+   "categoria": "familia",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Cuarto propio",
+   "opcion_b": "Cuarto compartido con hermanos"
+  },
+  {
+   "id": "familia-08",
+   "categoria": "familia",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Ayudar con quehaceres a cambio de un premio",
+   "opcion_b": "Ayudar porque sí"
+  },
+  {
+   "id": "familia-09",
+   "categoria": "familia",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Una cena familiar",
+   "opcion_b": "Una comida familiar"
+  },
+  {
+   "id": "familia-10",
+   "categoria": "familia",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Fotos familiares",
+   "opcion_b": "Videos familiares"
+  },
+  {
+   "id": "comida-01",
+   "categoria": "comida",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Tacos",
+   "opcion_b": "Pizza"
+  },
+  {
+   "id": "comida-02",
+   "categoria": "comida",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Hamburguesa",
+   "opcion_b": "Hot dog"
+  },
+  {
+   "id": "comida-03",
+   "categoria": "comida",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Quesadillas",
+   "opcion_b": "Tostadas"
+  },
+  {
+   "id": "comida-04",
+   "categoria": "comida",
+   "pregunta": "¿Qué prefieres en el desayuno?",
+   "opcion_a": "Cereal",
+   "opcion_b": "Huevos con frijoles"
+  },
+  {
+   "id": "comida-05",
+   "categoria": "comida",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Comida picosa",
+   "opcion_b": "Comida sin picante"
+  },
+  {
+   "id": "comida-06",
+   "categoria": "comida",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Pasta",
+   "opcion_b": "Arroz"
+  },
+  {
+   "id": "comida-07",
+   "categoria": "comida",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Fruta con chile y limón",
+   "opcion_b": "Fruta con crema"
+  },
+  {
+   "id": "comida-08",
+   "categoria": "comida",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Sopa",
+   "opcion_b": "Ensalada"
+  },
+  {
+   "id": "comida-09",
+   "categoria": "comida",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Comer en casa",
+   "opcion_b": "Comer en un restaurante"
+  },
+  {
+   "id": "comida-10",
+   "categoria": "comida",
+   "pregunta": "¿Qué botana prefieres?",
+   "opcion_a": "Papitas",
+   "opcion_b": "Palomitas"
+  },
+  {
+   "id": "dulces-01",
+   "categoria": "dulces",
+   "pregunta": "¿Qué postre prefieres?",
+   "opcion_a": "Helado",
+   "opcion_b": "Pastel"
+  },
+  {
+   "id": "dulces-02",
+   "categoria": "dulces",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Chocolate",
+   "opcion_b": "Gomitas"
+  },
+  {
+   "id": "dulces-03",
+   "categoria": "dulces",
+   "pregunta": "¿Qué helado prefieres?",
+   "opcion_a": "Chocolate",
+   "opcion_b": "Fresa"
+  },
+  {
+   "id": "dulces-04",
+   "categoria": "dulces",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Paleta de hielo",
+   "opcion_b": "Nieve de garrafa"
+  },
+  {
+   "id": "dulces-05",
+   "categoria": "dulces",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Dulces ácidos",
+   "opcion_b": "Dulces suaves"
+  },
+  {
+   "id": "dulces-06",
+   "categoria": "dulces",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Churros",
+   "opcion_b": "Donas"
+  },
+  {
+   "id": "dulces-07",
+   "categoria": "dulces",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Pastel de cumpleaños",
+   "opcion_b": "Cupcakes"
+  },
+  {
+   "id": "dulces-08",
+   "categoria": "dulces",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Galletas con leche",
+   "opcion_b": "Pan dulce con chocolate"
+  },
+  {
+   "id": "dulces-09",
+   "categoria": "dulces",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Hacer postres",
+   "opcion_b": "Comer postres"
+  },
+  {
+   "id": "dulces-10",
+   "categoria": "dulces",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Algo frío",
+   "opcion_b": "Algo calientito"
+  },
+  {
+   "id": "moda-01",
+   "categoria": "moda",
+   "pregunta": "¿Qué prefieres usar?",
+   "opcion_a": "Tenis",
+   "opcion_b": "Botas"
+  },
+  {
+   "id": "moda-02",
+   "categoria": "moda",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Ropa cómoda",
+   "opcion_b": "Ropa muy elegante"
+  },
+  {
+   "id": "moda-03",
+   "categoria": "moda",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Gorra",
+   "opcion_b": "Sudadera con capucha"
+  },
+  {
+   "id": "moda-04",
+   "categoria": "moda",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Colores llamativos",
+   "opcion_b": "Colores neutros"
+  },
+  {
+   "id": "moda-05",
+   "categoria": "moda",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Mochila con personajes",
+   "opcion_b": "Mochila lisa"
+  },
+  {
+   "id": "moda-06",
+   "categoria": "moda",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Elegir tu propia ropa",
+   "opcion_b": "Que te sorprendan con ella"
+  },
+  {
+   "id": "moda-07",
+   "categoria": "moda",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Uniforme escolar",
+   "opcion_b": "Ropa libre"
+  },
+  {
+   "id": "moda-08",
+   "categoria": "moda",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Accesorios divertidos",
+   "opcion_b": "Ropa con estampados"
+  },
+  {
+   "id": "moda-09",
+   "categoria": "moda",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Estrenar ropa",
+   "opcion_b": "Usar tu prenda favorita de siempre"
+  },
+  {
+   "id": "moda-10",
+   "categoria": "moda",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Zapatos de moda",
+   "opcion_b": "Zapatos súper cómodos"
+  },
+  {
+   "id": "superheroes-01",
+   "categoria": "superheroes",
+   "pregunta": "¿Qué superpoder prefieres?",
+   "opcion_a": "Volar",
+   "opcion_b": "Ser invisible"
+  },
+  {
+   "id": "superheroes-02",
+   "categoria": "superheroes",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Súper fuerza",
+   "opcion_b": "Súper velocidad"
+  },
+  {
+   "id": "superheroes-03",
+   "categoria": "superheroes",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Capa",
+   "opcion_b": "Máscara"
+  },
+  {
+   "id": "superheroes-04",
+   "categoria": "superheroes",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Héroe que trabaja solo",
+   "opcion_b": "Equipo de héroes"
+  },
+  {
+   "id": "superheroes-05",
+   "categoria": "superheroes",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Leer cómics",
+   "opcion_b": "Ver películas de héroes"
+  },
+  {
+   "id": "superheroes-06",
+   "categoria": "superheroes",
+   "pregunta": "¿Qué poder te serviría más en la escuela?",
+   "opcion_a": "Leer la mente",
+   "opcion_b": "Detener el tiempo"
+  },
+  {
+   "id": "superheroes-07",
+   "categoria": "superheroes",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Inventar un héroe nuevo",
+   "opcion_b": "Disfrazarte de uno que ya existe"
+  },
+  {
+   "id": "superheroes-08",
+   "categoria": "superheroes",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Un héroe con tecnología",
+   "opcion_b": "Un héroe con poderes naturales"
+  },
+  {
+   "id": "superheroes-09",
+   "categoria": "superheroes",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Un ayudante animal",
+   "opcion_b": "Un vehículo especial"
+  },
+  {
+   "id": "superheroes-10",
+   "categoria": "superheroes",
+   "pregunta": "¿Qué te gustaría hacer como héroe?",
+   "opcion_a": "Salvar animales",
+   "opcion_b": "Salvar ciudades"
+  },
+  {
+   "id": "juegos_mesa-01",
+   "categoria": "juegos_mesa",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Lotería",
+   "opcion_b": "Dominó"
+  },
+  {
+   "id": "juegos_mesa-02",
+   "categoria": "juegos_mesa",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Ajedrez",
+   "opcion_b": "Damas"
+  },
+  {
+   "id": "juegos_mesa-03",
+   "categoria": "juegos_mesa",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Juegos de cartas",
+   "opcion_b": "Juegos de tablero"
+  },
+  {
+   "id": "juegos_mesa-04",
+   "categoria": "juegos_mesa",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Juegos de estrategia",
+   "opcion_b": "Juegos de suerte"
+  },
+  {
+   "id": "juegos_mesa-05",
+   "categoria": "juegos_mesa",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Jugar en equipos",
+   "opcion_b": "Jugar uno contra uno"
+  },
+  {
+   "id": "juegos_mesa-06",
+   "categoria": "juegos_mesa",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Rompecabezas",
+   "opcion_b": "Juegos de memoria"
+  },
+  {
+   "id": "juegos_mesa-07",
+   "categoria": "juegos_mesa",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Un juego rápido",
+   "opcion_b": "Un juego de varias horas"
+  },
+  {
+   "id": "juegos_mesa-08",
+   "categoria": "juegos_mesa",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Juegos de preguntas",
+   "opcion_b": "Juegos de adivinar dibujos"
+  },
+  {
+   "id": "juegos_mesa-09",
+   "categoria": "juegos_mesa",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Juegos cooperativos",
+   "opcion_b": "Juegos competitivos"
+  },
+  {
+   "id": "juegos_mesa-10",
+   "categoria": "juegos_mesa",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Inventar tus propias reglas",
+   "opcion_b": "Seguir las reglas del instructivo"
+  },
+  {
+   "id": "ciencia-01",
+   "categoria": "ciencia",
+   "pregunta": "¿Qué experimento prefieres?",
+   "opcion_a": "Un volcán de bicarbonato",
+   "opcion_b": "Slime casero"
+  },
+  {
+   "id": "ciencia-02",
+   "categoria": "ciencia",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Microscopio",
+   "opcion_b": "Telescopio"
+  },
+  {
+   "id": "ciencia-03",
+   "categoria": "ciencia",
+   "pregunta": "¿Qué ciencia te gusta más?",
+   "opcion_a": "Química",
+   "opcion_b": "Física"
+  },
+  {
+   "id": "ciencia-04",
+   "categoria": "ciencia",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Hacer un experimento en casa",
+   "opcion_b": "Ver uno en el laboratorio"
+  },
+  {
+   "id": "ciencia-05",
+   "categoria": "ciencia",
+   "pregunta": "¿Qué te gustaría descubrir?",
+   "opcion_a": "Un animal nuevo",
+   "opcion_b": "Una planta nueva"
+  },
+  {
+   "id": "ciencia-06",
+   "categoria": "ciencia",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Inventar una máquina",
+   "opcion_b": "Descubrir un secreto de la naturaleza"
+  },
+  {
+   "id": "ciencia-07",
+   "categoria": "ciencia",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Bata de científico",
+   "opcion_b": "Lentes de laboratorio"
+  },
+  {
+   "id": "ciencia-08",
+   "categoria": "ciencia",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Experimentos con agua",
+   "opcion_b": "Experimentos con luz"
+  },
+  {
+   "id": "ciencia-09",
+   "categoria": "ciencia",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Cohetes de botella",
+   "opcion_b": "Circuitos con luces"
+  },
+  {
+   "id": "ciencia-10",
+   "categoria": "ciencia",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Aprender con un libro de ciencia",
+   "opcion_b": "Aprender con un documental"
+  },
+  {
+   "id": "espacio-01",
+   "categoria": "espacio",
+   "pregunta": "¿Qué planeta te gustaría visitar?",
+   "opcion_a": "Marte",
+   "opcion_b": "Saturno"
+  },
+  {
+   "id": "espacio-02",
+   "categoria": "espacio",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Viajar a la Luna",
+   "opcion_b": "Viajar a Marte"
+  },
+  {
+   "id": "espacio-03",
+   "categoria": "espacio",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Ser astronauta",
+   "opcion_b": "Ser científico de la NASA"
+  },
+  {
+   "id": "espacio-04",
+   "categoria": "espacio",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Ver estrellas fugaces",
+   "opcion_b": "Ver un eclipse"
+  },
+  {
+   "id": "espacio-05",
+   "categoria": "espacio",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Conocer extraterrestres amigables",
+   "opcion_b": "Descubrir un planeta vacío"
+  },
+  {
+   "id": "espacio-06",
+   "categoria": "espacio",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Cohete",
+   "opcion_b": "Nave espacial con cápsula"
+  },
+  {
+   "id": "espacio-07",
+   "categoria": "espacio",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Flotar sin gravedad",
+   "opcion_b": "Caminar en la Luna"
+  },
+  {
+   "id": "espacio-08",
+   "categoria": "espacio",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Observar con telescopio",
+   "opcion_b": "Mirar el cielo con los ojos"
+  },
+  {
+   "id": "espacio-09",
+   "categoria": "espacio",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Estudiar las constelaciones",
+   "opcion_b": "Estudiar los planetas"
+  },
+  {
+   "id": "espacio-10",
+   "categoria": "espacio",
+   "pregunta": "¿Qué comida llevarías al espacio?",
+   "opcion_a": "Pizza deshidratada",
+   "opcion_b": "Helado astronauta"
+  },
+  {
+   "id": "viajes-01",
+   "categoria": "viajes",
+   "pregunta": "¿Qué viaje prefieres?",
+   "opcion_a": "A la playa",
+   "opcion_b": "A la montaña"
+  },
+  {
+   "id": "viajes-02",
+   "categoria": "viajes",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Acampar",
+   "opcion_b": "Hotel con alberca"
+  },
+  {
+   "id": "viajes-03",
+   "categoria": "viajes",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Un viaje por México",
+   "opcion_b": "Un viaje a otro país"
+  },
+  {
+   "id": "viajes-04",
+   "categoria": "viajes",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Conocer ciudades antiguas",
+   "opcion_b": "Conocer selvas"
+  },
+  {
+   "id": "viajes-05",
+   "categoria": "viajes",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Ir en tren",
+   "opcion_b": "Ir en barco"
+  },
+  {
+   "id": "viajes-06",
+   "categoria": "viajes",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Un tour con guía",
+   "opcion_b": "Explorar por tu cuenta"
+  },
+  {
+   "id": "viajes-07",
+   "categoria": "viajes",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Subir una pirámide",
+   "opcion_b": "Nadar en un cenote"
+  },
+  {
+   "id": "viajes-08",
+   "categoria": "viajes",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Un parque de diversiones",
+   "opcion_b": "Un parque natural"
+  },
+  {
+   "id": "viajes-09",
+   "categoria": "viajes",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Tomar muchas fotos",
+   "opcion_b": "Guardar los recuerdos en la mente"
+  },
+  {
+   "id": "viajes-10",
+   "categoria": "viajes",
+   "pregunta": "¿Qué prefieres llevar?",
+   "opcion_a": "Mochila ligera",
+   "opcion_b": "Maleta grande"
+  },
+  {
+   "id": "misterios-01",
+   "categoria": "misterios",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Resolver acertijos",
+   "opcion_b": "Resolver laberintos"
+  },
+  {
+   "id": "misterios-02",
+   "categoria": "misterios",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Ser detective",
+   "opcion_b": "Ser explorador de tesoros"
+  },
+  {
+   "id": "misterios-03",
+   "categoria": "misterios",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Un escape room",
+   "opcion_b": "Una búsqueda del tesoro"
+  },
+  {
+   "id": "misterios-04",
+   "categoria": "misterios",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Mensajes secretos",
+   "opcion_b": "Mapas del tesoro"
+  },
+  {
+   "id": "misterios-05",
+   "categoria": "misterios",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Libros de misterio",
+   "opcion_b": "Juegos de misterio"
+  },
+  {
+   "id": "misterios-06",
+   "categoria": "misterios",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Resolver solo",
+   "opcion_b": "Resolver en equipo"
+  },
+  {
+   "id": "misterios-07",
+   "categoria": "misterios",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Adivinanzas",
+   "opcion_b": "Trabalenguas"
+  },
+  {
+   "id": "misterios-08",
+   "categoria": "misterios",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Un misterio con pistas fáciles",
+   "opcion_b": "Un misterio muy difícil"
+  },
+  {
+   "id": "misterios-09",
+   "categoria": "misterios",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Sudokus",
+   "opcion_b": "Crucigramas"
+  },
+  {
+   "id": "misterios-10",
+   "categoria": "misterios",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Magia con cartas",
+   "opcion_b": "Trucos de ilusión óptica"
+  },
+  {
+   "id": "memes-01",
+   "categoria": "memes",
+   "pregunta": "¿Qué te da más risa?",
+   "opcion_a": "Memes",
+   "opcion_b": "Chistes"
+  },
+  {
+   "id": "memes-02",
+   "categoria": "memes",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Ver videos graciosos de animales",
+   "opcion_b": "Ver bloopers de personas"
+  },
+  {
+   "id": "memes-03",
+   "categoria": "memes",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Hacer reír a todos",
+   "opcion_b": "Reírte con todos"
+  },
+  {
+   "id": "memes-04",
+   "categoria": "memes",
+   "pregunta": "¿Qué humor prefieres?",
+   "opcion_a": "Chistes malos de papás",
+   "opcion_b": "Humor de internet"
+  },
+  {
+   "id": "memes-05",
+   "categoria": "memes",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Stickers divertidos",
+   "opcion_b": "Emojis divertidos"
+  },
+  {
+   "id": "memes-06",
+   "categoria": "memes",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Crear tus propios memes",
+   "opcion_b": "Compartir los que encuentras"
+  },
+  {
+   "id": "memes-07",
+   "categoria": "memes",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Caricaturas chistosas",
+   "opcion_b": "Imitaciones divertidas"
+  },
+  {
+   "id": "memes-08",
+   "categoria": "memes",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Bromas inofensivas",
+   "opcion_b": "Contar anécdotas graciosas"
+  },
+  {
+   "id": "memes-09",
+   "categoria": "memes",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Comedia en la tele",
+   "opcion_b": "Comedia en videos cortos"
+  },
+  {
+   "id": "memes-10",
+   "categoria": "memes",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Un amigo muy gracioso",
+   "opcion_b": "Un amigo muy serio pero leal"
+  },
+  {
+   "id": "apps-01",
+   "categoria": "apps",
+   "pregunta": "¿Qué app prefieres?",
+   "opcion_a": "De juegos",
+   "opcion_b": "De dibujo"
+  },
+  {
+   "id": "apps-02",
+   "categoria": "apps",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Apps para aprender",
+   "opcion_b": "Apps para entretenerse"
+  },
+  {
+   "id": "apps-03",
+   "categoria": "apps",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Una app de música",
+   "opcion_b": "Una app de videos"
+  },
+  {
+   "id": "apps-04",
+   "categoria": "apps",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Una app de mapas",
+   "opcion_b": "Una app de fotos"
+  },
+  {
+   "id": "apps-05",
+   "categoria": "apps",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Una app de idiomas",
+   "opcion_b": "Una app de matemáticas"
+  },
+  {
+   "id": "apps-06",
+   "categoria": "apps",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Apps gratis con anuncios",
+   "opcion_b": "Apps sin anuncios"
+  },
+  {
+   "id": "apps-07",
+   "categoria": "apps",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Pocas apps bien organizadas",
+   "opcion_b": "Muchas apps para todo"
+  },
+  {
+   "id": "apps-08",
+   "categoria": "apps",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Una app para editar videos",
+   "opcion_b": "Una app para editar fotos"
+  },
+  {
+   "id": "apps-09",
+   "categoria": "apps",
+   "pregunta": "¿Qué app inventarías?",
+   "opcion_a": "Una que haga la tarea más divertida",
+   "opcion_b": "Una que encuentre cosas perdidas"
+  },
+  {
+   "id": "apps-10",
+   "categoria": "apps",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Modo oscuro",
+   "opcion_b": "Modo claro"
+  },
+  {
+   "id": "dinosaurios-01",
+   "categoria": "dinosaurios",
+   "pregunta": "¿Qué dinosaurio prefieres?",
+   "opcion_a": "Tiranosaurio rex",
+   "opcion_b": "Triceratops"
+  },
+  {
+   "id": "dinosaurios-02",
+   "categoria": "dinosaurios",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Dinosaurios que vuelan",
+   "opcion_b": "Dinosaurios que nadan"
+  },
+  {
+   "id": "dinosaurios-03",
+   "categoria": "dinosaurios",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Los más grandes",
+   "opcion_b": "Los más veloces"
+  },
+  {
+   "id": "dinosaurios-04",
+   "categoria": "dinosaurios",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Ser paleontólogo",
+   "opcion_b": "Visitar un museo de dinosaurios"
+  },
+  {
+   "id": "dinosaurios-05",
+   "categoria": "dinosaurios",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Fósiles",
+   "opcion_b": "Huellas"
+  },
+  {
+   "id": "dinosaurios-06",
+   "categoria": "dinosaurios",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Dinosaurio herbívoro",
+   "opcion_b": "Dinosaurio carnívoro"
+  },
+  {
+   "id": "dinosaurios-07",
+   "categoria": "dinosaurios",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Un dinosaurio de peluche",
+   "opcion_b": "Un dinosaurio de juguete articulado"
+  },
+  {
+   "id": "dinosaurios-08",
+   "categoria": "dinosaurios",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Ver una película de dinosaurios",
+   "opcion_b": "Leer un libro de dinosaurios"
+  },
+  {
+   "id": "dinosaurios-09",
+   "categoria": "dinosaurios",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Un parque con dinosaurios robot",
+   "opcion_b": "Una excavación de fósiles"
+  },
+  {
+   "id": "dinosaurios-10",
+   "categoria": "dinosaurios",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Un dinosaurio como mascota",
+   "opcion_b": "Un dragón como mascota"
+  },
+  {
+   "id": "naturaleza-01",
+   "categoria": "naturaleza",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Sembrar un árbol",
+   "opcion_b": "Cuidar un huerto"
+  },
+  {
+   "id": "naturaleza-02",
+   "categoria": "naturaleza",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Reciclar",
+   "opcion_b": "Reutilizar cosas viejas"
+  },
+  {
+   "id": "naturaleza-03",
+   "categoria": "naturaleza",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Bosque",
+   "opcion_b": "Playa"
+  },
+  {
+   "id": "naturaleza-04",
+   "categoria": "naturaleza",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Caminar entre montañas",
+   "opcion_b": "Nadar en un río"
+  },
+  {
+   "id": "naturaleza-05",
+   "categoria": "naturaleza",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Ahorrar agua",
+   "opcion_b": "Ahorrar luz"
+  },
+  {
+   "id": "naturaleza-06",
+   "categoria": "naturaleza",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Observar aves",
+   "opcion_b": "Observar mariposas"
+  },
+  {
+   "id": "naturaleza-07",
+   "categoria": "naturaleza",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Limpiar un parque con amigos",
+   "opcion_b": "Plantar flores en la escuela"
+  },
+  {
+   "id": "naturaleza-08",
+   "categoria": "naturaleza",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Bicicleta para ir a todos lados",
+   "opcion_b": "Caminar a todos lados"
+  },
+  {
+   "id": "naturaleza-09",
+   "categoria": "naturaleza",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Cuidar a las abejas",
+   "opcion_b": "Cuidar a las tortugas"
+  },
+  {
+   "id": "naturaleza-10",
+   "categoria": "naturaleza",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Una casa con jardín",
+   "opcion_b": "Una casa con muchas plantas adentro"
+  },
+  {
+   "id": "emociones-01",
+   "categoria": "emociones",
+   "pregunta": "¿Qué te hace más feliz?",
+   "opcion_a": "Jugar con amigos",
+   "opcion_b": "Pasar tiempo en familia"
+  },
+  {
+   "id": "emociones-02",
+   "categoria": "emociones",
+   "pregunta": "Cuando estás nervioso, ¿qué te ayuda más?",
+   "opcion_a": "Respirar profundo",
+   "opcion_b": "Platicar con alguien"
+  },
+  {
+   "id": "emociones-03",
+   "categoria": "emociones",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Sorprender a alguien",
+   "opcion_b": "Que te sorprendan"
+  },
+  {
+   "id": "emociones-04",
+   "categoria": "emociones",
+   "pregunta": "¿Qué te emociona más?",
+   "opcion_a": "Un viaje",
+   "opcion_b": "Una fiesta"
+  },
+  {
+   "id": "emociones-05",
+   "categoria": "emociones",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Reír mucho",
+   "opcion_b": "Estar tranquilo"
+  },
+  {
+   "id": "emociones-06",
+   "categoria": "emociones",
+   "pregunta": "Si estás enojado, ¿qué prefieres hacer?",
+   "opcion_a": "Dibujar",
+   "opcion_b": "Hacer ejercicio"
+  },
+  {
+   "id": "emociones-07",
+   "categoria": "emociones",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Escribir lo que sientes",
+   "opcion_b": "Dibujar lo que sientes"
+  },
+  {
+   "id": "emociones-08",
+   "categoria": "emociones",
+   "pregunta": "¿Qué te da más orgullo?",
+   "opcion_a": "Aprender algo difícil",
+   "opcion_b": "Ayudar a alguien"
+  },
+  {
+   "id": "emociones-09",
+   "categoria": "emociones",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Dar un abrazo",
+   "opcion_b": "Dar un cumplido"
+  },
+  {
+   "id": "emociones-10",
+   "categoria": "emociones",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Contar tus emociones en voz alta",
+   "opcion_b": "Guardarlas en un diario"
+  },
+  {
+   "id": "habitos-01",
+   "categoria": "habitos",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Madrugar",
+   "opcion_b": "Dormir hasta tarde"
+  },
+  {
+   "id": "habitos-02",
+   "categoria": "habitos",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Bañarte en la mañana",
+   "opcion_b": "Bañarte en la noche"
+  },
+  {
+   "id": "habitos-03",
+   "categoria": "habitos",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Desayunar tranquilo",
+   "opcion_b": "Salir corriendo a la escuela"
+  },
+  {
+   "id": "habitos-04",
+   "categoria": "habitos",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Hacer la tarea al llegar",
+   "opcion_b": "Descansar primero"
+  },
+  {
+   "id": "habitos-05",
+   "categoria": "habitos",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Leer antes de dormir",
+   "opcion_b": "Escuchar música antes de dormir"
+  },
+  {
+   "id": "habitos-06",
+   "categoria": "habitos",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Tender tu cama",
+   "opcion_b": "Ordenar tus juguetes"
+  },
+  {
+   "id": "habitos-07",
+   "categoria": "habitos",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Rutinas fijas",
+   "opcion_b": "Cambiar de plan cada día"
+  },
+  {
+   "id": "habitos-08",
+   "categoria": "habitos",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Cepillarte los dientes con música",
+   "opcion_b": "Hacerlo con un cronómetro"
+  },
+  {
+   "id": "habitos-09",
+   "categoria": "habitos",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Tomar agua natural",
+   "opcion_b": "Agua de sabor"
+  },
+  {
+   "id": "habitos-10",
+   "categoria": "habitos",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Una agenda en papel",
+   "opcion_b": "Recordatorios en el celular"
+  },
+  {
+   "id": "profesiones-01",
+   "categoria": "profesiones",
+   "pregunta": "¿Qué profesión te gustaría?",
+   "opcion_a": "Doctor o doctora",
+   "opcion_b": "Ingeniero o ingeniera"
+  },
+  {
+   "id": "profesiones-02",
+   "categoria": "profesiones",
+   "pregunta": "¿Qué prefieres ser de grande?",
+   "opcion_a": "Piloto",
+   "opcion_b": "Astronauta"
+  },
+  {
+   "id": "profesiones-03",
+   "categoria": "profesiones",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Ser maestro",
+   "opcion_b": "Ser científico"
+  },
+  {
+   "id": "profesiones-04",
+   "categoria": "profesiones",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Crear videojuegos",
+   "opcion_b": "Jugar videojuegos profesionalmente"
+  },
+  {
+   "id": "profesiones-05",
+   "categoria": "profesiones",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Ser veterinario",
+   "opcion_b": "Ser biólogo marino"
+  },
+  {
+   "id": "profesiones-06",
+   "categoria": "profesiones",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Trabajar en una oficina",
+   "opcion_b": "Trabajar al aire libre"
+  },
+  {
+   "id": "profesiones-07",
+   "categoria": "profesiones",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Ser chef",
+   "opcion_b": "Ser panadero"
+  },
+  {
+   "id": "profesiones-08",
+   "categoria": "profesiones",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Ser artista",
+   "opcion_b": "Ser arquitecto"
+  },
+  {
+   "id": "profesiones-09",
+   "categoria": "profesiones",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Ser futbolista",
+   "opcion_b": "Ser entrenador"
+  },
+  {
+   "id": "profesiones-10",
+   "categoria": "profesiones",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Tener tu propio negocio",
+   "opcion_b": "Trabajar en un equipo grande"
+  },
+  {
+   "id": "fantasia-01",
+   "categoria": "fantasia",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Ser mago",
+   "opcion_b": "Ser dragón"
+  },
+  {
+   "id": "fantasia-02",
+   "categoria": "fantasia",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Una varita mágica",
+   "opcion_b": "Una alfombra voladora"
+  },
+  {
+   "id": "fantasia-03",
+   "categoria": "fantasia",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Vivir en un castillo",
+   "opcion_b": "Vivir en un bosque encantado"
+  },
+  {
+   "id": "fantasia-04",
+   "categoria": "fantasia",
+   "pregunta": "¿Qué criatura prefieres?",
+   "opcion_a": "Unicornio",
+   "opcion_b": "Fénix"
+  },
+  {
+   "id": "fantasia-05",
+   "categoria": "fantasia",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Hechizos para volar",
+   "opcion_b": "Hechizos para hablar con animales"
+  },
+  {
+   "id": "fantasia-06",
+   "categoria": "fantasia",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Libro de hechizos",
+   "opcion_b": "Poción mágica"
+  },
+  {
+   "id": "fantasia-07",
+   "categoria": "fantasia",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Ser un caballero",
+   "opcion_b": "Ser un hada"
+  },
+  {
+   "id": "fantasia-08",
+   "categoria": "fantasia",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Un mapa de un reino secreto",
+   "opcion_b": "Una llave de una puerta mágica"
+  },
+  {
+   "id": "fantasia-09",
+   "categoria": "fantasia",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Una historia con dragones",
+   "opcion_b": "Una historia con duendes"
+  },
+  {
+   "id": "fantasia-10",
+   "categoria": "fantasia",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Capa de invisibilidad",
+   "opcion_b": "Botas de velocidad"
+  },
+  {
+   "id": "celebridades-01",
+   "categoria": "celebridades",
+   "pregunta": "¿A quién te gustaría conocer?",
+   "opcion_a": "A un cantante famoso",
+   "opcion_b": "A un deportista famoso"
+  },
+  {
+   "id": "celebridades-02",
+   "categoria": "celebridades",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Un actor",
+   "opcion_b": "Un creador de contenido"
+  },
+  {
+   "id": "celebridades-03",
+   "categoria": "celebridades",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Ser famoso",
+   "opcion_b": "Ser muy bueno en algo sin fama"
+  },
+  {
+   "id": "celebridades-04",
+   "categoria": "celebridades",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Un autógrafo",
+   "opcion_b": "Una foto"
+  },
+  {
+   "id": "celebridades-05",
+   "categoria": "celebridades",
+   "pregunta": "¿Qué personaje prefieres?",
+   "opcion_a": "De caricatura",
+   "opcion_b": "De videojuego"
+  },
+  {
+   "id": "celebridades-06",
+   "categoria": "celebridades",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Asistir a un estreno",
+   "opcion_b": "Asistir a una final deportiva"
+  },
+  {
+   "id": "celebridades-07",
+   "categoria": "celebridades",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Cantar con tu artista favorito",
+   "opcion_b": "Jugar con tu deportista favorito"
+  },
+  {
+   "id": "celebridades-08",
+   "categoria": "celebridades",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Un personaje valiente",
+   "opcion_b": "Un personaje muy ingenioso"
+  },
+  {
+   "id": "celebridades-09",
+   "categoria": "celebridades",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Una mascota famosa",
+   "opcion_b": "Un robot famoso"
+  },
+  {
+   "id": "celebridades-10",
+   "categoria": "celebridades",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Conocer a un personaje de ficción",
+   "opcion_b": "Conocer a una persona real famosa"
+  },
+  {
+   "id": "mexico-01",
+   "categoria": "mexico",
+   "pregunta": "¿Qué fiesta prefieres?",
+   "opcion_a": "Las Posadas",
+   "opcion_b": "El Día de Muertos"
+  },
+  {
+   "id": "mexico-02",
+   "categoria": "mexico",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Piñata",
+   "opcion_b": "Cuentos de leyendas"
+  },
+  {
+   "id": "mexico-03",
+   "categoria": "mexico",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Mariachi",
+   "opcion_b": "Danza folclórica"
+  },
+  {
+   "id": "mexico-04",
+   "categoria": "mexico",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Lucha libre",
+   "opcion_b": "Charrería"
+  },
+  {
+   "id": "mexico-05",
+   "categoria": "mexico",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Fiestas patrias con antojitos",
+   "opcion_b": "Desfile con mucha gente"
+  },
+  {
+   "id": "mexico-06",
+   "categoria": "mexico",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Tamales",
+   "opcion_b": "Pozole"
+  },
+  {
+   "id": "mexico-07",
+   "categoria": "mexico",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Alebrijes",
+   "opcion_b": "Papel picado"
+  },
+  {
+   "id": "mexico-08",
+   "categoria": "mexico",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Ir a una feria del pueblo",
+   "opcion_b": "Ir a un museo"
+  },
+  {
+   "id": "mexico-09",
+   "categoria": "mexico",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Conocer una zona arqueológica",
+   "opcion_b": "Conocer un pueblo mágico"
+  },
+  {
+   "id": "mexico-10",
+   "categoria": "mexico",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Aprender una lengua indígena",
+   "opcion_b": "Aprender otro idioma extranjero"
+  },
+  {
+   "id": "caricaturas-01",
+   "categoria": "caricaturas",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Animación en 3D",
+   "opcion_b": "Dibujos animados clásicos"
+  },
+  {
+   "id": "caricaturas-02",
+   "categoria": "caricaturas",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Caricaturas de aventuras",
+   "opcion_b": "Caricaturas de comedia"
+  },
+  {
+   "id": "caricaturas-03",
+   "categoria": "caricaturas",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Un personaje animal",
+   "opcion_b": "Un personaje robot"
+  },
+  {
+   "id": "caricaturas-04",
+   "categoria": "caricaturas",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Canciones de caricaturas",
+   "opcion_b": "Escenas de acción"
+  },
+  {
+   "id": "caricaturas-05",
+   "categoria": "caricaturas",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Una caricatura con mucha historia",
+   "opcion_b": "Una con episodios independientes"
+  },
+  {
+   "id": "caricaturas-06",
+   "categoria": "caricaturas",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Ver caricaturas en la mañana",
+   "opcion_b": "Verlas en la tarde"
+  },
+  {
+   "id": "caricaturas-07",
+   "categoria": "caricaturas",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Ser animador",
+   "opcion_b": "Ser actor de voz"
+  },
+  {
+   "id": "caricaturas-08",
+   "categoria": "caricaturas",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Crear tu propio personaje",
+   "opcion_b": "Dibujar uno que ya existe"
+  },
+  {
+   "id": "caricaturas-09",
+   "categoria": "caricaturas",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Una peli de animación nueva",
+   "opcion_b": "Una de las que recuerdas de pequeño"
+  },
+  {
+   "id": "caricaturas-10",
+   "categoria": "caricaturas",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Un villano gracioso",
+   "opcion_b": "Un villano misterioso"
+  },
+  {
+   "id": "libros-01",
+   "categoria": "libros",
+   "pregunta": "¿Qué prefieres leer?",
+   "opcion_a": "Cuentos",
+   "opcion_b": "Cómics"
+  },
+  {
+   "id": "libros-02",
+   "categoria": "libros",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Libros de aventuras",
+   "opcion_b": "Libros de datos curiosos"
+  },
+  {
+   "id": "libros-03",
+   "categoria": "libros",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Libro de papel",
+   "opcion_b": "Libro digital"
+  },
+  {
+   "id": "libros-04",
+   "categoria": "libros",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Leer en voz alta",
+   "opcion_b": "Leer en silencio"
+  },
+  {
+   "id": "libros-05",
+   "categoria": "libros",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Libros con ilustraciones",
+   "opcion_b": "Libros solo con texto"
+  },
+  {
+   "id": "libros-06",
+   "categoria": "libros",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Ir a la biblioteca",
+   "opcion_b": "Ir a una librería"
+  },
+  {
+   "id": "libros-07",
+   "categoria": "libros",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Una saga larga",
+   "opcion_b": "Un libro corto"
+  },
+  {
+   "id": "libros-08",
+   "categoria": "libros",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Leer en la cama",
+   "opcion_b": "Leer en el parque"
+  },
+  {
+   "id": "libros-09",
+   "categoria": "libros",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Escribir tu propio cuento",
+   "opcion_b": "Dibujar un cómic"
+  },
+  {
+   "id": "libros-10",
+   "categoria": "libros",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Libros de misterio",
+   "opcion_b": "Libros de fantasía"
+  },
+  {
+   "id": "arte-01",
+   "categoria": "arte",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Pintar con acuarelas",
+   "opcion_b": "Dibujar con lápiz"
+  },
+  {
+   "id": "arte-02",
+   "categoria": "arte",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Hacer manualidades",
+   "opcion_b": "Hacer dibujos digitales"
+  },
+  {
+   "id": "arte-03",
+   "categoria": "arte",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Plastilina",
+   "opcion_b": "Arcilla"
+  },
+  {
+   "id": "arte-04",
+   "categoria": "arte",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Dibujar personajes",
+   "opcion_b": "Dibujar paisajes"
+  },
+  {
+   "id": "arte-05",
+   "categoria": "arte",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Pintar un mural en grupo",
+   "opcion_b": "Hacer una obra tú solo"
+  },
+  {
+   "id": "arte-06",
+   "categoria": "arte",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Colores brillantes",
+   "opcion_b": "Dibujos en blanco y negro"
+  },
+  {
+   "id": "arte-07",
+   "categoria": "arte",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Origami",
+   "opcion_b": "Collage"
+  },
+  {
+   "id": "arte-08",
+   "categoria": "arte",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Visitar un museo de arte",
+   "opcion_b": "Tomar una clase de arte"
+  },
+  {
+   "id": "arte-09",
+   "categoria": "arte",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Pintar con las manos",
+   "opcion_b": "Pintar con pincel"
+  },
+  {
+   "id": "arte-10",
+   "categoria": "arte",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Decorar tu cuaderno",
+   "opcion_b": "Decorar tu cuarto"
+  },
+  {
+   "id": "baile-01",
+   "categoria": "baile",
+   "pregunta": "¿Qué baile prefieres?",
+   "opcion_a": "Hip hop",
+   "opcion_b": "Baile folclórico"
+  },
+  {
+   "id": "baile-02",
+   "categoria": "baile",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Bailar en grupo",
+   "opcion_b": "Bailar solo"
+  },
+  {
+   "id": "baile-03",
+   "categoria": "baile",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Aprender una coreografía",
+   "opcion_b": "Inventar tus pasos"
+  },
+  {
+   "id": "baile-04",
+   "categoria": "baile",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Bailar en una fiesta",
+   "opcion_b": "Bailar en un escenario"
+  },
+  {
+   "id": "baile-05",
+   "categoria": "baile",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Cumbia",
+   "opcion_b": "Salsa"
+  },
+  {
+   "id": "baile-06",
+   "categoria": "baile",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Bailar frente al espejo",
+   "opcion_b": "Grabarte bailando"
+  },
+  {
+   "id": "baile-07",
+   "categoria": "baile",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Un juego de baile en consola",
+   "opcion_b": "Una clase de baile"
+  },
+  {
+   "id": "baile-08",
+   "categoria": "baile",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Baile con música movida",
+   "opcion_b": "Baile con música suave"
+  },
+  {
+   "id": "baile-09",
+   "categoria": "baile",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Un festival de danza",
+   "opcion_b": "Un concurso de baile"
+  },
+  {
+   "id": "baile-10",
+   "categoria": "baile",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Bailar con tus amigos",
+   "opcion_b": "Bailar con tu familia"
+  },
+  {
+   "id": "foto_video-01",
+   "categoria": "foto_video",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Tomar fotos",
+   "opcion_b": "Grabar videos"
+  },
+  {
+   "id": "foto_video-02",
+   "categoria": "foto_video",
+   "pregunta": "¿Qué prefieres fotografiar?",
+   "opcion_a": "Paisajes",
+   "opcion_b": "Animales"
+  },
+  {
+   "id": "foto_video-03",
+   "categoria": "foto_video",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Selfies",
+   "opcion_b": "Fotos de grupo"
+  },
+  {
+   "id": "foto_video-04",
+   "categoria": "foto_video",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Fotos con filtros",
+   "opcion_b": "Fotos naturales"
+  },
+  {
+   "id": "foto_video-05",
+   "categoria": "foto_video",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Hacer una película con amigos",
+   "opcion_b": "Hacer un documental de animales"
+  },
+  {
+   "id": "foto_video-06",
+   "categoria": "foto_video",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Editar videos",
+   "opcion_b": "Grabarlos"
+  },
+  {
+   "id": "foto_video-07",
+   "categoria": "foto_video",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Cámara instantánea",
+   "opcion_b": "Cámara del celular"
+  },
+  {
+   "id": "foto_video-08",
+   "categoria": "foto_video",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Un álbum impreso",
+   "opcion_b": "Un álbum digital"
+  },
+  {
+   "id": "foto_video-09",
+   "categoria": "foto_video",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Time-lapse del cielo",
+   "opcion_b": "Cámara lenta de saltos"
+  },
+  {
+   "id": "foto_video-10",
+   "categoria": "foto_video",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Fotos en blanco y negro",
+   "opcion_b": "Fotos a color"
+  },
+  {
+   "id": "vacaciones-01",
+   "categoria": "vacaciones",
+   "pregunta": "¿Qué prefieres en vacaciones?",
+   "opcion_a": "Playa",
+   "opcion_b": "Campamento"
+  },
+  {
+   "id": "vacaciones-02",
+   "categoria": "vacaciones",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Quedarte en casa jugando",
+   "opcion_b": "Viajar a otro lugar"
+  },
+  {
+   "id": "vacaciones-03",
+   "categoria": "vacaciones",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Curso de verano",
+   "opcion_b": "Descansar todos los días"
+  },
+  {
+   "id": "vacaciones-04",
+   "categoria": "vacaciones",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Alberca",
+   "opcion_b": "Mar"
+  },
+  {
+   "id": "vacaciones-05",
+   "categoria": "vacaciones",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Visitar a tus abuelos",
+   "opcion_b": "Visitar un parque acuático"
+  },
+  {
+   "id": "vacaciones-06",
+   "categoria": "vacaciones",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Vacaciones largas",
+   "opcion_b": "Muchos puentes cortos"
+  },
+  {
+   "id": "vacaciones-07",
+   "categoria": "vacaciones",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Helado en la playa",
+   "opcion_b": "Elote en el parque"
+  },
+  {
+   "id": "vacaciones-08",
+   "categoria": "vacaciones",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Aprender algo nuevo en vacaciones",
+   "opcion_b": "No hacer planes"
+  },
+  {
+   "id": "vacaciones-09",
+   "categoria": "vacaciones",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Dormir tarde",
+   "opcion_b": "Despertar temprano para salir"
+  },
+  {
+   "id": "vacaciones-10",
+   "categoria": "vacaciones",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Vacaciones de invierno",
+   "opcion_b": "Vacaciones de verano"
+  },
+  {
+   "id": "clima-01",
+   "categoria": "clima",
+   "pregunta": "¿Qué clima prefieres?",
+   "opcion_a": "Soleado",
+   "opcion_b": "Lluvioso"
+  },
+  {
+   "id": "clima-02",
+   "categoria": "clima",
+   "pregunta": "¿Qué estación prefieres?",
+   "opcion_a": "Verano",
+   "opcion_b": "Invierno"
+  },
+  {
+   "id": "clima-03",
+   "categoria": "clima",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Saltar en charcos",
+   "opcion_b": "Tomar el sol"
+  },
+  {
+   "id": "clima-04",
+   "categoria": "clima",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Día de tormenta con película",
+   "opcion_b": "Día soleado con juegos"
+  },
+  {
+   "id": "clima-05",
+   "categoria": "clima",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Primavera con flores",
+   "opcion_b": "Otoño con hojas secas"
+  },
+  {
+   "id": "clima-06",
+   "categoria": "clima",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Calor",
+   "opcion_b": "Frío"
+  },
+  {
+   "id": "clima-07",
+   "categoria": "clima",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Ver un arcoíris",
+   "opcion_b": "Ver un rayo desde lejos"
+  },
+  {
+   "id": "clima-08",
+   "categoria": "clima",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Chocolate caliente",
+   "opcion_b": "Agua fresca"
+  },
+  {
+   "id": "clima-09",
+   "categoria": "clima",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Ver nieve",
+   "opcion_b": "Ver el mar"
+  },
+  {
+   "id": "clima-10",
+   "categoria": "clima",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Usar paraguas",
+   "opcion_b": "Usar impermeable"
+  },
+  {
+   "id": "vehiculos-01",
+   "categoria": "vehiculos",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Autos de carreras",
+   "opcion_b": "Camiones gigantes"
+  },
+  {
+   "id": "vehiculos-02",
+   "categoria": "vehiculos",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Motocicleta",
+   "opcion_b": "Bicicleta"
+  },
+  {
+   "id": "vehiculos-03",
+   "categoria": "vehiculos",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Avión",
+   "opcion_b": "Helicóptero"
+  },
+  {
+   "id": "vehiculos-04",
+   "categoria": "vehiculos",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Tren",
+   "opcion_b": "Autobús de dos pisos"
+  },
+  {
+   "id": "vehiculos-05",
+   "categoria": "vehiculos",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Barco",
+   "opcion_b": "Submarino"
+  },
+  {
+   "id": "vehiculos-06",
+   "categoria": "vehiculos",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Auto eléctrico",
+   "opcion_b": "Auto clásico"
+  },
+  {
+   "id": "vehiculos-07",
+   "categoria": "vehiculos",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Scooter",
+   "opcion_b": "Patineta"
+  },
+  {
+   "id": "vehiculos-08",
+   "categoria": "vehiculos",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Metro",
+   "opcion_b": "Teleférico"
+  },
+  {
+   "id": "vehiculos-09",
+   "categoria": "vehiculos",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Autos de juguete",
+   "opcion_b": "Aviones a escala"
+  },
+  {
+   "id": "vehiculos-10",
+   "categoria": "vehiculos",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Globo aerostático",
+   "opcion_b": "Parapente"
+  },
+  {
+   "id": "lego-01",
+   "categoria": "lego",
+   "pregunta": "¿Qué prefieres armar?",
+   "opcion_a": "Una nave espacial",
+   "opcion_b": "Un castillo"
+  },
+  {
+   "id": "lego-02",
+   "categoria": "lego",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Seguir el instructivo",
+   "opcion_b": "Construir con tu imaginación"
+  },
+  {
+   "id": "lego-03",
+   "categoria": "lego",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Sets pequeños",
+   "opcion_b": "Sets enormes"
+  },
+  {
+   "id": "lego-04",
+   "categoria": "lego",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Ciudad de bloques",
+   "opcion_b": "Pista de carreras"
+  },
+  {
+   "id": "lego-05",
+   "categoria": "lego",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Construir con amigos",
+   "opcion_b": "Construir solo"
+  },
+  {
+   "id": "lego-06",
+   "categoria": "lego",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Robots de piezas",
+   "opcion_b": "Animales de piezas"
+  },
+  {
+   "id": "lego-07",
+   "categoria": "lego",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Un puente fuerte",
+   "opcion_b": "Una torre alta"
+  },
+  {
+   "id": "lego-08",
+   "categoria": "lego",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Bloques magnéticos",
+   "opcion_b": "Bloques clásicos"
+  },
+  {
+   "id": "lego-09",
+   "categoria": "lego",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Armar un modelo y exhibirlo",
+   "opcion_b": "Armarlo y jugar con él"
+  },
+  {
+   "id": "lego-10",
+   "categoria": "lego",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Construir en la vida real con cartón",
+   "opcion_b": "Construir en un videojuego"
+  },
+  {
+   "id": "mar-01",
+   "categoria": "mar",
+   "pregunta": "¿Qué animal marino prefieres?",
+   "opcion_a": "Delfín",
+   "opcion_b": "Tiburón"
+  },
+  {
+   "id": "mar-02",
+   "categoria": "mar",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Pulpo",
+   "opcion_b": "Medusa"
+  },
+  {
+   "id": "mar-03",
+   "categoria": "mar",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Bucear",
+   "opcion_b": "Pescar"
+  },
+  {
+   "id": "mar-04",
+   "categoria": "mar",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Ver ballenas",
+   "opcion_b": "Ver tortugas marinas"
+  },
+  {
+   "id": "mar-05",
+   "categoria": "mar",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Arrecife de coral",
+   "opcion_b": "Fondo del océano"
+  },
+  {
+   "id": "mar-06",
+   "categoria": "mar",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Caballito de mar",
+   "opcion_b": "Estrella de mar"
+  },
+  {
+   "id": "mar-07",
+   "categoria": "mar",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Visitar un acuario",
+   "opcion_b": "Nadar con peces"
+  },
+  {
+   "id": "mar-08",
+   "categoria": "mar",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Ser capitán de barco",
+   "opcion_b": "Ser buzo"
+  },
+  {
+   "id": "mar-09",
+   "categoria": "mar",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Tesoro hundido",
+   "opcion_b": "Ciudad submarina"
+  },
+  {
+   "id": "mar-10",
+   "categoria": "mar",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Cuidar el océano",
+   "opcion_b": "Explorar el océano"
+  },
+  {
+   "id": "insectos-01",
+   "categoria": "insectos",
+   "pregunta": "¿Qué insecto prefieres?",
+   "opcion_a": "Mariposa",
+   "opcion_b": "Catarina"
+  },
+  {
+   "id": "insectos-02",
+   "categoria": "insectos",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Hormigas",
+   "opcion_b": "Abejas"
+  },
+  {
+   "id": "insectos-03",
+   "categoria": "insectos",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Luciérnagas",
+   "opcion_b": "Grillos cantores"
+  },
+  {
+   "id": "insectos-04",
+   "categoria": "insectos",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Observarlos con lupa",
+   "opcion_b": "Dibujarlos"
+  },
+  {
+   "id": "insectos-05",
+   "categoria": "insectos",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Un jardín con mariposas",
+   "opcion_b": "Una colmena de abejas"
+  },
+  {
+   "id": "insectos-06",
+   "categoria": "insectos",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Escarabajos",
+   "opcion_b": "Libélulas"
+  },
+  {
+   "id": "insectos-07",
+   "categoria": "insectos",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Un hotel para insectos",
+   "opcion_b": "Un terrario"
+  },
+  {
+   "id": "insectos-08",
+   "categoria": "insectos",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Gusanos de seda",
+   "opcion_b": "Mantis religiosas"
+  },
+  {
+   "id": "insectos-09",
+   "categoria": "insectos",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Un libro de bichos",
+   "opcion_b": "Un video de bichos"
+  },
+  {
+   "id": "insectos-10",
+   "categoria": "insectos",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Insectos de colores",
+   "opcion_b": "Insectos gigantes"
+  },
+  {
+   "id": "cumpleanos-01",
+   "categoria": "cumpleanos",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Fiesta grande",
+   "opcion_b": "Fiesta pequeña"
+  },
+  {
+   "id": "cumpleanos-02",
+   "categoria": "cumpleanos",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Piñata",
+   "opcion_b": "Pastel"
+  },
+  {
+   "id": "cumpleanos-03",
+   "categoria": "cumpleanos",
+   "pregunta": "¿Qué regalo prefieres?",
+   "opcion_a": "Un juguete",
+   "opcion_b": "Un videojuego"
+  },
+  {
+   "id": "cumpleanos-04",
+   "categoria": "cumpleanos",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Fiesta temática",
+   "opcion_b": "Salida sorpresa"
+  },
+  {
+   "id": "cumpleanos-05",
+   "categoria": "cumpleanos",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Recibir regalos",
+   "opcion_b": "Dar regalos"
+  },
+  {
+   "id": "cumpleanos-06",
+   "categoria": "cumpleanos",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Regalo sorpresa",
+   "opcion_b": "Regalo que pediste"
+  },
+  {
+   "id": "cumpleanos-07",
+   "categoria": "cumpleanos",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Fiesta en casa",
+   "opcion_b": "Fiesta en un salón"
+  },
+  {
+   "id": "cumpleanos-08",
+   "categoria": "cumpleanos",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Globos",
+   "opcion_b": "Confeti"
+  },
+  {
+   "id": "cumpleanos-09",
+   "categoria": "cumpleanos",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Cantar las mañanitas",
+   "opcion_b": "Cantar Cumpleaños feliz"
+  },
+  {
+   "id": "cumpleanos-10",
+   "categoria": "cumpleanos",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Un regalo hecho a mano",
+   "opcion_b": "Un regalo comprado"
+  },
+  {
+   "id": "ciudad_campo-01",
+   "categoria": "ciudad_campo",
+   "pregunta": "¿Dónde prefieres vivir?",
+   "opcion_a": "En la ciudad",
+   "opcion_b": "En el campo"
+  },
+  {
+   "id": "ciudad_campo-02",
+   "categoria": "ciudad_campo",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Rascacielos",
+   "opcion_b": "Montañas"
+  },
+  {
+   "id": "ciudad_campo-03",
+   "categoria": "ciudad_campo",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Parque de la ciudad",
+   "opcion_b": "Granja con animales"
+  },
+  {
+   "id": "ciudad_campo-04",
+   "categoria": "ciudad_campo",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Mucho ruido y movimiento",
+   "opcion_b": "Silencio y naturaleza"
+  },
+  {
+   "id": "ciudad_campo-05",
+   "categoria": "ciudad_campo",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Cine cerca de casa",
+   "opcion_b": "Río cerca de casa"
+  },
+  {
+   "id": "ciudad_campo-06",
+   "categoria": "ciudad_campo",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Mercado de barrio",
+   "opcion_b": "Cosechar tus frutas"
+  },
+  {
+   "id": "ciudad_campo-07",
+   "categoria": "ciudad_campo",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Mirar luces de la ciudad de noche",
+   "opcion_b": "Mirar estrellas en el campo"
+  },
+  {
+   "id": "ciudad_campo-08",
+   "categoria": "ciudad_campo",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Departamento alto",
+   "opcion_b": "Casa con patio grande"
+  },
+  {
+   "id": "ciudad_campo-09",
+   "categoria": "ciudad_campo",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Andar en metro",
+   "opcion_b": "Andar a caballo"
+  },
+  {
+   "id": "ciudad_campo-10",
+   "categoria": "ciudad_campo",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Visitar el campo",
+   "opcion_b": "Visitar la ciudad"
+  },
+  {
+   "id": "skate-01",
+   "categoria": "skate",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Patineta",
+   "opcion_b": "Patines"
+  },
+  {
+   "id": "skate-02",
+   "categoria": "skate",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Bicicleta BMX",
+   "opcion_b": "Scooter de trucos"
+  },
+  {
+   "id": "skate-03",
+   "categoria": "skate",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Escalar un muro",
+   "opcion_b": "Hacer parkour"
+  },
+  {
+   "id": "skate-04",
+   "categoria": "skate",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Surf",
+   "opcion_b": "Skate"
+  },
+  {
+   "id": "skate-05",
+   "categoria": "skate",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Aprender un truco nuevo",
+   "opcion_b": "Dominar uno que ya sabes"
+  },
+  {
+   "id": "skate-06",
+   "categoria": "skate",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Usar casco y protecciones",
+   "opcion_b": "Ponerte stickers en el casco"
+  },
+  {
+   "id": "skate-07",
+   "categoria": "skate",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Ver competencias de trucos",
+   "opcion_b": "Practicar en el parque"
+  },
+  {
+   "id": "skate-08",
+   "categoria": "skate",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Resbaladilla gigante",
+   "opcion_b": "Tirolesa"
+  },
+  {
+   "id": "skate-09",
+   "categoria": "skate",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Rampa",
+   "opcion_b": "Pista plana"
+  },
+  {
+   "id": "skate-10",
+   "categoria": "skate",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Patinar con amigos",
+   "opcion_b": "Patinar para mejorar solo"
+  },
+  {
+   "id": "halloween-01",
+   "categoria": "halloween",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Disfrazarte de monstruo",
+   "opcion_b": "Disfrazarte de calavera"
+  },
+  {
+   "id": "halloween-02",
+   "categoria": "halloween",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Pedir dulces",
+   "opcion_b": "Hacer un altar"
+  },
+  {
+   "id": "halloween-03",
+   "categoria": "halloween",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Pan de muerto",
+   "opcion_b": "Calabaza con dulce"
+  },
+  {
+   "id": "halloween-04",
+   "categoria": "halloween",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Cuentos de miedo suaves",
+   "opcion_b": "Cuentos de leyendas mexicanas"
+  },
+  {
+   "id": "halloween-05",
+   "categoria": "halloween",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Decorar con calabazas",
+   "opcion_b": "Decorar con cempasúchil"
+  },
+  {
+   "id": "halloween-06",
+   "categoria": "halloween",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Fantasmas amigables",
+   "opcion_b": "Esqueletos divertidos"
+  },
+  {
+   "id": "halloween-07",
+   "categoria": "halloween",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Maquillaje de catrina",
+   "opcion_b": "Máscara de monstruo"
+  },
+  {
+   "id": "halloween-08",
+   "categoria": "halloween",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Una casa del terror de juguete",
+   "opcion_b": "Una película animada de calaveras"
+  },
+  {
+   "id": "halloween-09",
+   "categoria": "halloween",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Fiesta de disfraces en la escuela",
+   "opcion_b": "Concurso de calaveritas literarias"
+  },
+  {
+   "id": "halloween-10",
+   "categoria": "halloween",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Recordar historias de la familia",
+   "opcion_b": "Cocinar la comida favorita de un familiar"
+  },
+  {
+   "id": "salud-01",
+   "categoria": "salud",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Dormir temprano",
+   "opcion_b": "Dormir una siesta"
+  },
+  {
+   "id": "salud-02",
+   "categoria": "salud",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Hacer ejercicio",
+   "opcion_b": "Estirarte y relajarte"
+  },
+  {
+   "id": "salud-03",
+   "categoria": "salud",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Fruta",
+   "opcion_b": "Verduras"
+  },
+  {
+   "id": "salud-04",
+   "categoria": "salud",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Correr al aire libre",
+   "opcion_b": "Ejercicio en casa"
+  },
+  {
+   "id": "salud-05",
+   "categoria": "salud",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Tomar mucha agua",
+   "opcion_b": "Comer más fruta"
+  },
+  {
+   "id": "salud-06",
+   "categoria": "salud",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Jugar afuera",
+   "opcion_b": "Jugar adentro"
+  },
+  {
+   "id": "salud-07",
+   "categoria": "salud",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Meditar un minuto",
+   "opcion_b": "Dar un paseo corto"
+  },
+  {
+   "id": "salud-08",
+   "categoria": "salud",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Menos pantallas por la noche",
+   "opcion_b": "Más tiempo al aire libre"
+  },
+  {
+   "id": "salud-09",
+   "categoria": "salud",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Cocinar algo saludable",
+   "opcion_b": "Probar una fruta nueva"
+  },
+  {
+   "id": "salud-10",
+   "categoria": "salud",
+   "pregunta": "¿Qué prefieres?",
+   "opcion_a": "Visita al dentista con premio",
+   "opcion_b": "Chequeo médico con calcomanía"
+  }
+ ]
+}
