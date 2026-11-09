@@ -5,16 +5,16 @@ Juego de preguntas de dos opciones para niños y adolescentes, con interfaz mode
 horizontales de Matplotlib** con la cantidad de votos de cada respuesta.
 
         ## Modos de juego
-| 👥 **Local** | Solo los de los X jugadores de esta pantalla. **Empiezan en 0**, sin datos ficticios. | Jugar en grupo en una sola computadora. |
-| 🧪 **Demostración** | Ficticios, acumulados, **editables y reiniciables**. Se avisa en pantalla y en el gráfico. | Probar la app. |
-| 🌐 **Servidor real** | Reales, de varios dispositivos (`servidor.py`). | Encuestas con muchas personas. |
+|  **Local** | Solo los de los X jugadores de esta pantalla. **Empiezan en 0**, sin datos ficticios. | Jugar en grupo en una sola computadora. |
+|  **Demostración** | Ficticios, acumulados, **editables y reiniciables**. Se avisa en pantalla y en el gráfico. | Probar la app. |
+|  **Servidor real** | Reales, de varios dispositivos (`servidor.py`). | Encuestas con muchas personas. |
 
 **Modo local:** elige X jugadores (− / + o escribiendo; 1 a 40, ajustable en `MAX_JUGADORES` de `playquiz/config.py`)
 y sus nombres. En cada pregunta votan uno por uno (el orden rota) y el gráfico de Matplotlib crece con cada voto.
 "Siguiente" se habilita en cuanto votó el último jugador. Con 1 jugador funciona igual (votación individual).
 
-**Controles durante la partida:** 🏠 Inicio · 📂 Temáticas · 🔄 Reiniciar (en local vuelve a 0 votos) ·
-✏️ Editar votos demo y 🗑 Reiniciar datos demo (solo demostración) · ↻ Actualizar (solo servidor) · Siguiente.
+**Controles durante la partida:**  Inicio ·  Temáticas ·  Reiniciar (en local vuelve a 0 votos) ·
+ Editar votos demo y  Reiniciar datos demo (solo demostración) ·  Actualizar (solo servidor) · Siguiente.
 
 Si algo falla en un botón, la app muestra el error y lo guarda en `data/errores.log` (envíamelo para corregirlo).
 
@@ -50,7 +50,7 @@ pip install -r requirements.txt
 
 ## Ejecutar
 - **Modo demostración:** `python main.py` → elige "Demostración" → ¡Jugar!
-  Los votos son **ficticios** (se avisa en pantalla y en el gráfico) y puedes editarlos con "✏️ Editar votos demo".
+  Los votos son **ficticios** (se avisa en pantalla y en el gráfico) y puedes editarlos con " Editar votos demo".
 - **Modo real:** en una computadora ejecuta `python servidor.py --host 0.0.0.0 --port 5000`.
   - Otros dispositivos de la misma red abren `http://IP-DE-LA-SERVIDORA:5000` en el navegador y votan (la página
     muestra el mismo gráfico de Matplotlib).
