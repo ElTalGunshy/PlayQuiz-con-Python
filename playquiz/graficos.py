@@ -1,4 +1,3 @@
-"""Gráficos de barras con Matplotlib (sin pyplot, para poder incrustarlos en Tkinter y en Flask)."""
 import io
 import textwrap
 
@@ -44,10 +43,12 @@ def dibujar_resultados(fig, pregunta, opcion_a, opcion_b, votos_a, votos_b,
     fig.clear()
     ax = fig.add_subplot(111)
     ax.set_facecolor(COLOR_FONDO)
+    ancho = fig.get_figwidth()
+    estrecha = ancho < 7.5                 # figuras pequeñas (resumen final): más margen y texto más compacto
 
     etiquetas = []
     for letra, texto in (("A", opcion_a), ("B", opcion_b)):
-        t = _envolver(texto, 24)
+        t = _envolver(texto, 20 if estrecha else 24)
         if eleccion == letra:
             t += "\n✔ Tu elección"
         etiquetas.append(t)
@@ -81,10 +82,10 @@ def dibujar_resultados(fig, pregunta, opcion_a, opcion_b, votos_a, votos_b,
         ax.text(v + maximo * 0.02, i, texto, va="center", ha="left", fontsize=13,
                 fontweight="bold", color=COLOR_TEXTO)
 
-    ax.set_xlim(0, maximo * 1.5)
+    ax.set_xlim(0, maximo * (1.9 if estrecha else 1.5))
     ax.set_ylim(1.6, -0.6)                         # A arriba, B abajo
     ax.set_yticks([0, 1])
-    ax.set_yticklabels(etiquetas, fontsize=13, color=COLOR_TEXTO)
+    ax.set_yticklabels(etiquetas, fontsize=11 if estrecha else 13, color=COLOR_TEXTO)
     ax.xaxis.set_major_locator(MaxNLocator(integer=True, nbins=6))
     ax.tick_params(axis="x", labelsize=11, colors=COLOR_TEXTO)
     ax.tick_params(axis="y", length=0)
@@ -103,7 +104,8 @@ def dibujar_resultados(fig, pregunta, opcion_a, opcion_b, votos_a, votos_b,
     if titulo:
         fig.text(0.5, 0.965, _envolver(pregunta, 60), ha="center", va="top",
                  fontsize=16, fontweight="bold", color=COLOR_TEXTO)
-    fig.subplots_adjust(left=0.27, right=0.97, top=0.80 if titulo else 0.86,
+    fig.subplots_adjust(left=min(0.45, 2.3 / ancho) if estrecha else 0.27, right=0.97,
+                        top=0.80 if titulo else 0.86,
                         bottom=0.24 if demo else 0.19)
     if demo:
         fig.text(0.5, 0.015, AVISO_DEMO, ha="center", va="bottom", fontsize=10,
@@ -135,7 +137,7 @@ def dibujar_resumen(fig, con_mayoria, con_minoria, empates):
     """Resumen final: cuántas veces coincidió el jugador con la mayoría (conteo de preguntas)."""
     fig.clear()
     ax = fig.add_subplot(111)
-    nombres = ["Con la más votada", "Con la menos votada", "Preguntas empatadas"]
+    nombres = ["Con la más votada", "Con la menos votada", "Empates"]
     valores = [con_mayoria, con_minoria, empates]
     colores = [COLOR_MAYORIA, COLOR_MINORIA, COLOR_EMPATE]
     ax.barh(range(3), valores, color=colores, height=0.55)

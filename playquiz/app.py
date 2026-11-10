@@ -548,13 +548,20 @@ class PlayQuizApp(ctk.CTk):
             etiqueta(der, f"●  {f['jugador']}:  {f['mayoria']} con la más votada · {f['minoria']} con la "
                           f"menos votada · {f['empate']} empates", 12, color=color_jugador(j),
                      anchor="w", wraplength=520, justify="left").pack(fill="x", padx=8, pady=1)
-        etiqueta(der, "Por pregunta", 15, True).pack(anchor="w", padx=8, pady=(12, 2))
-        for r in p.rondas:
+        etiqueta(der, "Resultado final de cada pregunta", 15, True).pack(anchor="w", padx=8, pady=(14, 2))
+        for k, r in enumerate(p.rondas, start=1):
             q = r.pregunta
+            propia = r.votos[0] if p.n_jugadores == 1 else None      # con 1 jugador se marca su elección
+            figura = graficos.crear_figura(6.0, 3.2)
+            graficos.dibujar_resultados(figura, f"{k}. {q['pregunta']}", q["opcion_a"], q["opcion_b"],
+                                        r.votos_a, r.votos_b, propia, self.fuente.es_demo,
+                                        ronda=None if self.fuente.es_local else r.votos_mesa)
+            lienzo = FigureCanvasTkAgg(figura, master=der).get_tk_widget()
+            lienzo.configure(height=300)
+            lienzo.pack(fill="x", padx=8, pady=(6, 0))
             mesa = ", ".join(f"{p.jugadores[i]}→{r.votos[i]}" for i in sorted(r.votos))
-            etiqueta(der, f"• {q['pregunta']}\n   A «{q['opcion_a']}»: {r.votos_a} votos · "
-                          f"B «{q['opcion_b']}»: {r.votos_b} votos\n   Mesa: {mesa}", 11, anchor="w",
-                     wraplength=520, justify="left").pack(fill="x", padx=8, pady=3)
+            etiqueta(der, f"Mesa: {mesa}", 11, color=GRIS_OSC, anchor="w", wraplength=520,
+                     justify="left").pack(fill="x", padx=12, pady=(0, 8))
         if self.fuente.es_demo:
             etiqueta(c, "Modo demostración: los votos son ficticios.", 12, True, "#7A4300").pack()
         fila = ctk.CTkFrame(c, fg_color=FONDO)
