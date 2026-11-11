@@ -129,3 +129,24 @@ class Partida:
             for k in total:
                 total[k] += f[k]
         return total
+
+    def perfil_general(self):
+        """Lista de gustos que describen a la mesa: la respuesta más votada de cada pregunta.
+
+        Se omiten las preguntas sin votos y las empatadas (no hay una respuesta ganadora).
+        Cada elemento: {'categoria', 'pregunta', 'opcion' ('A'/'B'), 'texto', 'votos', 'votos_otra'}.
+        """
+        perfil = []
+        for r in self.rondas:
+            if r.votos_a == r.votos_b:
+                continue
+            letra = "A" if r.votos_a > r.votos_b else "B"
+            perfil.append({
+                "categoria": r.pregunta["categoria"],
+                "pregunta": r.pregunta["pregunta"],
+                "opcion": letra,
+                "texto": r.pregunta["opcion_a" if letra == "A" else "opcion_b"],
+                "votos": max(r.votos_a, r.votos_b),
+                "votos_otra": min(r.votos_a, r.votos_b),
+            })
+        return perfil

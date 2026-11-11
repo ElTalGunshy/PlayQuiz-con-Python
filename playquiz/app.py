@@ -543,7 +543,26 @@ class PlayQuizApp(ctk.CTk):
         FigureCanvasTkAgg(fig, master=izq).get_tk_widget().pack(padx=6, pady=6)
         der = ctk.CTkScrollableFrame(cuerpo, fg_color=BLANCO, corner_radius=16)
         der.pack(side="left", fill="both", expand=True, padx=(8, 0))
-        etiqueta(der, "Por jugador", 15, True).pack(anchor="w", padx=8, pady=(4, 2))
+        # ---- perfil general: la respuesta más votada de cada pregunta ----
+        perfil = p.perfil_general()
+        etiqueta(der, "El perfil general es:", 17, True, MORADO).pack(anchor="w", padx=8, pady=(4, 2))
+        if perfil:
+            for item in perfil:
+                cat = self.banco.categoria(item["categoria"])
+                etiqueta(der, f"•  {cat['emoji']} {cat['nombre']}: {item['texto']}  "
+                              f"({item['votos']} vs {item['votos_otra']} votos)", 13, True,
+                         anchor="w", wraplength=520, justify="left").pack(fill="x", padx=14, pady=1)
+        else:
+            etiqueta(der, "Todas las preguntas quedaron empatadas o sin votos: aún no hay perfil.", 12,
+                     color=GRIS_OSC, anchor="w", wraplength=520, justify="left").pack(fill="x", padx=14)
+        omitidas = p.total - len(perfil)
+        if omitidas:
+            etiqueta(der, f"({omitidas} pregunta(s) empatada(s) no cuentan en el perfil)", 11, color=GRIS_OSC,
+                     anchor="w").pack(fill="x", padx=14, pady=(2, 0))
+        if self.fuente.es_demo:
+            etiqueta(der, "Perfil basado en votos ficticios de demostración.", 11, True, "#7A4300",
+                     anchor="w").pack(fill="x", padx=14)
+        etiqueta(der, "Por jugador", 15, True).pack(anchor="w", padx=8, pady=(14, 2))
         for j, f in enumerate(por_jugador):
             etiqueta(der, f"●  {f['jugador']}:  {f['mayoria']} con la más votada · {f['minoria']} con la "
                           f"menos votada · {f['empate']} empates", 12, color=color_jugador(j),
